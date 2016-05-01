@@ -1,0 +1,1425 @@
+﻿Log file open, 05/01/16 12:16:22
+LogInit:Display: Running engine for game: MechProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1564421131) SRandInit(-1564421129).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads.
+LogStats: Stats thread started at 0.116969
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: F:/Programs/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.01-16.16.23:163][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-16.16.23:163][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.01-16.16.23:175][  0]LogInit: Computer: Z600-PC
+[2016.05.01-16.16.23:175][  0]LogInit: User: Z600
+[2016.05.01-16.16.23:175][  0]LogInit: CPU Page size=65536, Cores=8
+[2016.05.01-16.16.23:175][  0]LogInit: High frequency timer resolution =2.597685 MHz
+[2016.05.01-16.16.23:176][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.05.01-16.16.23:176][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.01-16.16.23:176][  0]LogMemory: Process Physical Memory: 316.34 MB used, 316.34 MB peak
+[2016.05.01-16.16.23:176][  0]LogMemory: Process Virtual Memory: 320.86 MB used, 320.86 MB peak
+[2016.05.01-16.16.23:176][  0]LogMemory: Physical Memory: 6227.44 MB used, 12271.22 MB total
+[2016.05.01-16.16.23:176][  0]LogMemory: Virtual Memory: 626.74 MB used, 8388608.00 MB total
+[2016.05.01-16.16.23:237][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.01-16.16.23:857][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.01-16.16.23:882][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.05.01-16.16.23:882][  0]LogD3D11RHI:       1992MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.05.01-16.16.23:882][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.01-16.16.23:898][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.01-16.16.23:899][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.05.01-16.16.23:899][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.01-16.16.23:899][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.01-16.16.23:899][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.01-16.16.23:913][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.01-16.16.23:933][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../UnrealProjects/UnrealProject/MechProject/Intermediate/Shaders/WorkingDirectory/3744/).
+[2016.05.01-16.16.23:933][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Z600/AppData/Local/Temp/UnrealShaderWorkingDir/C21CCC43407447C672C67192AE309E2B/'.
+[2016.05.01-16.16.23:933][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.01-16.16.25:230][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.01-16.16.25:237][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.01-16.16.25:243][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.01-16.16.25:250][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.01-16.16.25:256][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.01-16.16.25:261][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.01-16.16.25:265][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.01-16.16.25:270][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.01-16.16.25:274][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.01-16.16.25:280][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.01-16.16.25:285][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.01-16.16.25:294][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.01-16.16.25:294][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.01-16.16.25:296][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.01-16.16.25:315][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.01-16.16.25:320][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.01-16.16.25:325][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.01-16.16.25:329][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.01-16.16.25:334][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.01-16.16.25:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.01-16.16.25:437][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.01-16.16.25:520][  0]LogDerivedDataCache: Loaded boot cache 0.08s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.01-16.16.25:521][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.01-16.16.25:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/UnrealProject/MechProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.01-16.16.25:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.01-16.16.25:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/UnrealProject/MechProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.01-16.16.25:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.01-16.16.25:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.01-16.16.25:556][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Z600/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.01-16.16.25:812][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-16.16.25:814][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.01-16.16.25:868][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.01-16.16.26:068][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.01-16.16.26:068][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.01-16.16.26:068][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.01-16.16.26:464][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.01-16.16.26:464][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.05.01-16.16.26:464][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.01-16.16.26:505][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.01-16.16.26:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.01-16.16.26:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.01-16.16.26:800][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-16.16.26:800][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-16.16.26:800][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-16.16.26:800][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-16.16.26:800][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-16.16.26:800][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-16.16.27:525][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.01-16.16.27:643][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
+[2016.05.01-16.16.28:094][  0]SourceControl: Info Source control is disabled
+[2016.05.01-16.16.28:096][  0]SourceControl: Info Source control is disabled
+[2016.05.01-16.16.28:111][  0]SourceControl: Info Source control is disabled
+[2016.05.01-16.16.28:124][  0]SourceControl: Info Source control is disabled
+[2016.05.01-16.16.28:383][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.01-16.16.28:491][  0]LogEngine: Initializing Engine...
+[2016.05.01-16.16.28:742][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.01-16.16.28:751][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.16.28:769][  0]LogInit: FAudioDevice initialized.
+[2016.05.01-16.16.28:815][  0]LogDerivedDataCache: Saved boot cache 0.05s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.01-16.16.28:826][  0]LogInit: Texture streaming: Enabled
+[2016.05.01-16.16.28:863][  0]LogInit: Transaction tracking system initialized
+[2016.05.01-16.16.28:899][  0]BlueprintLog: New page: Editor Load
+[2016.05.01-16.16.29:028][  0]LocalizationService: Info Localization service is disabled
+[2016.05.01-16.16.29:137][  0]LogConsoleResponse:Display: 
+[2016.05.01-16.16.29:263][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.01-16.16.29:263][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.01-16.16.29:263][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.01-16.16.29:339][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/' took 0.02s
+[2016.05.01-16.16.29:339][  0]SourceControl: Info Source control is disabled
+[2016.05.01-16.16.29:339][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-16.16.29:340][  0]LightingResults: New page: Lighting Build
+[2016.05.01-16.16.29:343][  0]MapCheck: New page: Map Check
+[2016.05.01-16.16.29:343][  0]LightingResults: New page: Lighting Build
+[2016.05.01-16.16.32:311][  0]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-16.16.32:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-16.16.32:340][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-16.16.32:431][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.332ms to complete.
+[2016.05.01-16.16.32:431][  0]LogFileHelpers: Loading map 'TutorialCourse' took 3.091
+[2016.05.01-16.16.32:648][  0]LogCollectionManager: Loaded 0 collections in 0.002293 seconds
+[2016.05.01-16.16.32:706][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Saved/Collections/' took 0.01s
+[2016.05.01-16.16.32:706][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/Developers/Z600/Collections/' took 0.01s
+[2016.05.01-16.16.32:706][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/Collections/' took 0.01s
+[2016.05.01-16.16.32:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.05.01-16.16.32:718][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1979 classes and 343 folders.
+[2016.05.01-16.16.32:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.01-16.16.32:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.01-16.16.32:723][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.01-16.16.32:728][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.01-16.16.32:736][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.01-16.16.32:783][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.01-16.16.32:833][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.01-16.16.32:941][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.01-16.16.32:952][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.01-16.16.32:980][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.01-16.16.32:981][  0]LogLoad: Full Startup: 11.00 seconds (BP compile: 0.82 seconds)
+[2016.05.01-16.16.32:981][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.01-16.16.32:990][  0]LogOcInput: OculusInput pre-init called
+[2016.05.01-16.16.33:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.01-16.16.33:311][  0]LogRenderer: Reallocating scene render targets to support 1204x576 (Frame:2).
+[2016.05.01-16.16.33:485][  1]LogAssetRegistry: Asset discovery search completed in 5.8615 seconds
+[2016.05.01-16.16.33:485][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.05.01-16.16.33:485][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.05.01-16.19.11:526][969]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 108 classes and 0 folders.
+[2016.05.01-16.19.24:398][979]LogRenderer: Reallocating scene render targets to support 1204x728 (Frame:1412).
+[2016.05.01-16.35.20:252][ 83]LogMaterial: Missing cached shader map for material Hand, compiling. 
+[2016.05.01-16.35.22:018][ 83]LogMaterial: Missing cached shader map for material Hand, compiling. 
+[2016.05.01-16.35.22:048][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-16.35.22:092][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2016.05.01-16.35.22:142][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_24, compiling. 
+[2016.05.01-16.35.22:151][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-16.35.25:871][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.05.01-16.35.25:871][221]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-16.35.25:871][221]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.01-16.35.26:432][224]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.05.01-16.36.21:818][244]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-16.36.22:140][244]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-16.36.22:158][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-16.36.22:187][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-16.36.22:208][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.01-16.36.22:213][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.05.01-16.36.22:228][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.05.01-16.36.22:246][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.01-16.36.22:248][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.05.01-16.36.22:265][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.01-16.36.22:277][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.01-16.36.26:098][421]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-16.36.26:098][421]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-16.36.26:098][421]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-16.37.28:340][302]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.01-16.37.28:833][303]LogRenderer: Reallocating scene render targets to support 1204x880 (Frame:6090).
+[2016.05.01-16.38.33:785][619]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.05.01-16.47.20:099][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.47.20:276][132]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 7:47:20 AM)
+[2016.05.01-16.47.20:285][132]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-16.47.20:366][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080624s)
+[2016.05.01-16.47.20:367][132]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-16.47.20:367][132]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2016.05.01-16.47.20:385][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.100016s)
+[2016.05.01-16.47.20:402][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.47.20:403][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.47.20:660][132]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.47.20:674][132]LogInit: FAudioDevice initialized.
+[2016.05.01-16.47.20:834][132]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.47.20:853][132]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-12.47.20
+[2016.05.01-16.47.21:017][132]LogWorld: Bringing up level for play took: 0.178905
+[2016.05.01-16.47.21:186][132]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.47.21:216][132]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
+[2016.05.01-16.47.21:308][132]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.72
+[2016.05.01-16.47.21:444][133]LogRenderer: Reallocating scene render targets to support 1280x880 (Frame:11060).
+[2016.05.01-16.47.40:529][155]Cmd: MAP LOAD FILE="F:/UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-16.47.40:583][155]LightingResults: New page: Lighting Build
+[2016.05.01-16.47.40:675][155]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2016.05.01-16.47.40:677][155]MapCheck: New page: Map Check
+[2016.05.01-16.47.40:677][155]LightingResults: New page: Lighting Build
+[2016.05.01-16.47.42:530][155]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.47.42:678][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-16.47.42:738][155]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-16.47.44:873][155]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,135.19ms to complete.
+[2016.05.01-16.47.44:873][155]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.357
+[2016.05.01-16.47.47:251][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.47.47:251][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.47.47:251][306]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:47:47 AM)
+[2016.05.01-16.47.47:251][306]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.47.47:314][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062709s)
+[2016.05.01-16.47.47:315][306]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.47.47:315][306]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2016.05.01-16.47.47:315][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064217s)
+[2016.05.01-16.47.47:315][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.47.47:316][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.47.47:361][306]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.47.47:372][306]LogInit: FAudioDevice initialized.
+[2016.05.01-16.47.47:450][306]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.47.47:633][306]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.47.47
+[2016.05.01-16.47.47:635][306]LogWorld: Bringing up level for play took: 0.182705
+[2016.05.01-16.47.47:654][306]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.47.47:670][306]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.081
+[2016.05.01-16.47.47:671][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.47.49:815][430]LogBlueprintUserMessages: [MechChara_C_78] leftOn
+[2016.05.01-16.47.49:946][438]LogBlueprintUserMessages: [MechChara_C_78] LeftOff
+[2016.05.01-16.48.10:121][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.10:189][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.19:239][106]Cmd: DELETE
+[2016.05.01-16.48.19:239][106]Cmd: ACTOR DELETE
+[2016.05.01-16.48.19:394][106]LogEditorActor: Deleted Actor: MechChara_C
+[2016.05.01-16.48.19:424][106]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.48.19:424][106]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.48.19:489][106]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2016.05.01-16.48.19:907][140]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-16.48.25:827][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.01-16.48.31:158][918]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-16.48.32:838][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.32:838][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.48.32:838][ 18]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:48:32 AM)
+[2016.05.01-16.48.32:838][ 18]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.48.32:881][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042250s)
+[2016.05.01-16.48.32:882][ 18]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.48.32:882][ 18]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2016.05.01-16.48.32:882][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043563s)
+[2016.05.01-16.48.32:962][ 18]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.48.32:973][ 18]LogInit: FAudioDevice initialized.
+[2016.05.01-16.48.33:031][ 18]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.48.33:048][ 18]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.48.33
+[2016.05.01-16.48.33:051][ 18]LogWorld: Bringing up level for play took: 0.017197
+[2016.05.01-16.48.33:052][ 18]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.48.33:068][ 18]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.478
+[2016.05.01-16.48.33:069][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.37:463][283]LogBlueprintUserMessages: [MechChara_C_3201] leftOn
+[2016.05.01-16.48.37:498][285]LogBlueprintUserMessages: [MechChara_C_3201] RightOn
+[2016.05.01-16.48.37:517][286]LogBlueprintUserMessages: [MechChara_C_3201] LeftOff
+[2016.05.01-16.48.37:534][287]LogBlueprintUserMessages: [MechChara_C_3201] RightOff
+[2016.05.01-16.48.41:620][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.41:738][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.53:379][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.53:379][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.48.53:379][508]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:48:53 AM)
+[2016.05.01-16.48.53:380][508]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.48.53:415][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035330s)
+[2016.05.01-16.48.53:416][508]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.48.53:416][508]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2016.05.01-16.48.53:416][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036805s)
+[2016.05.01-16.48.53:487][508]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.48.53:499][508]LogInit: FAudioDevice initialized.
+[2016.05.01-16.48.53:554][508]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.48.53:570][508]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.48.53
+[2016.05.01-16.48.53:572][508]LogWorld: Bringing up level for play took: 0.015853
+[2016.05.01-16.48.53:573][508]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.48.53:589][508]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.999
+[2016.05.01-16.48.53:590][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.53:658][509]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:15968).
+[2016.05.01-16.48.53:787][511]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 411/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.48.57:546][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.57:740][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.48.57:985][708]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 481/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.02:996][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.49.02:996][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.49.02:996][990]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:49:02 AM)
+[2016.05.01-16.49.02:997][990]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.49.03:035][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038002s)
+[2016.05.01-16.49.03:036][990]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.49.03:036][990]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2016.05.01-16.49.03:036][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039401s)
+[2016.05.01-16.49.03:036][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.49.03:105][990]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.49.03:114][990]LogInit: FAudioDevice initialized.
+[2016.05.01-16.49.03:167][990]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.49.03:183][990]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.49.03
+[2016.05.01-16.49.03:186][990]LogWorld: Bringing up level for play took: 0.016219
+[2016.05.01-16.49.03:187][990]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.49.03:203][990]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.613
+[2016.05.01-16.49.03:204][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.49.03:261][991]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.19:598][670]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.23:054][854]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.23:809][891]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.30:827][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.33:204][371]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.36:136][520]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.39:718][705]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.45:046][983]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.49.45:646][ 13]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.50.54:063][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.50.54:201][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.50.54:490][958]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 480/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.50.55:228][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.50.55:228][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.50.55:228][978]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:50:55 AM)
+[2016.05.01-16.50.55:228][978]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.50.55:273][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045219s)
+[2016.05.01-16.50.55:275][978]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.50.55:275][978]LogPlayLevel: PIE: World Init took: (0.001442s)
+[2016.05.01-16.50.55:275][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.047092s)
+[2016.05.01-16.50.55:337][978]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.50.55:349][978]LogInit: FAudioDevice initialized.
+[2016.05.01-16.50.55:402][978]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.50.55:425][978]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.50.55
+[2016.05.01-16.50.55:429][978]LogWorld: Bringing up level for play took: 0.023839
+[2016.05.01-16.50.55:431][978]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.50.55:448][978]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.856
+[2016.05.01-16.50.55:448][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.51.12:115][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.51.12:236][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.51.20:829][413]Cmd: DELETE
+[2016.05.01-16.51.20:829][413]Cmd: ACTOR DELETE
+[2016.05.01-16.51.20:830][413]LogEditorActor: Deleted Actor: MechChara_C
+[2016.05.01-16.51.20:900][413]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2016.05.01-16.51.23:344][508]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.51.34:049][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 487/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.51.36:979][388]Cmd: UpdateLandscapeSetup
+[2016.05.01-16.51.36:992][389]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 472/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.51.38:250][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.51.38:250][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.51.38:251][457]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:51:38 AM)
+[2016.05.01-16.51.38:251][457]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.51.38:287][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036183s)
+[2016.05.01-16.51.38:288][457]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.51.38:288][457]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2016.05.01-16.51.38:289][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037980s)
+[2016.05.01-16.51.38:289][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.51.38:289][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.51.38:374][457]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.51.38:384][457]LogInit: FAudioDevice initialized.
+[2016.05.01-16.51.38:440][457]LogWorld: Game class is 'GameMode'
+[2016.05.01-16.51.38:456][457]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.51.38
+[2016.05.01-16.51.38:459][457]LogWorld: Bringing up level for play took: 0.016803
+[2016.05.01-16.51.38:474][457]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.118
+[2016.05.01-16.51.38:475][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.51.38:522][458]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.51.39:407][502]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.52.17:640][667]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.05.01-16.52.18:299][668]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.52.18:994][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.01-16.52.19:086][714]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.52.23:655][929]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.53.35:315][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.53.35:386][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.53.35:462][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.53.39:699][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 455/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.53.41:239][197]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-16.53.51:707][684]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.53.52:543][713]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.06:253][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.54.07:550][366]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 472/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.11:594][539]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 503/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.17:363][744]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 480/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.18:674][801]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara3)
+[2016.05.01-16.54.20:501][925]Cmd: DELETE
+[2016.05.01-16.54.20:501][925]Cmd: ACTOR DELETE
+[2016.05.01-16.54.20:502][925]LogEditorActor: Deleted Actor: MechChara_C
+[2016.05.01-16.54.20:541][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.01-16.54.20:541][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.54.20:605][925]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2016.05.01-16.54.21:482][ 12]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-16.54.23:411][100]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 473/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.26:535][306]BlueprintLog: New page: Compile MechChara
+[2016.05.01-16.54.28:196][306]BlueprintEditorCompileResults: Info [2286.19] Compile of MechChara successful! [in 1,661 ms]
+[2016.05.01-16.54.38:962][514]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 464/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.41:573][634]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 487/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.42:701][684]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 487/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.44:823][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.54.44:823][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.54.44:823][779]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:54:44 AM)
+[2016.05.01-16.54.44:823][779]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.54.44:866][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043251s)
+[2016.05.01-16.54.44:867][779]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.54.44:868][779]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2016.05.01-16.54.44:868][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044785s)
+[2016.05.01-16.54.44:868][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.54.44:944][779]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.54.44:954][779]LogInit: FAudioDevice initialized.
+[2016.05.01-16.54.45:010][779]LogWorld: Game class is 'GameMode'
+[2016.05.01-16.54.45:026][779]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.54.45
+[2016.05.01-16.54.45:029][779]LogWorld: Bringing up level for play took: 0.016283
+[2016.05.01-16.54.45:041][779]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.447
+[2016.05.01-16.54.45:042][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.54.45:094][780]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.54.49:156][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.54.49:429][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.54.49:713][981]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 479/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.55.01:148][615]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-16.55.01:148][615]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-16.55.07:707][893]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-16.55.07:707][893]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-16.55.13:940][199]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-16.55.13:940][199]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-16.55.27:212][755]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-16.55.27:212][755]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-16.55.30:033][836]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-16.55.30:033][836]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-16.55.49:435][557]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.55.50:519][602]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.55.51:755][654]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara5)
+[2016.05.01-16.55.53:199][706]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara6)
+[2016.05.01-16.55.54:754][761]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.55.58:700][885]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.55.59:373][911]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.04:289][ 71]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.04:909][ 81]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.05:051][ 87]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.05:224][ 92]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.05:638][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.05:736][107]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.06:301][129]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.09:639][271]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.11:306][340]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-16.56.13:066][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.17:118][543]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 519/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.17:296][545]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.18:100][596]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.19:793][639]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 519/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.20:203][662]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.22:732][767]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.23:933][827]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara3)
+[2016.05.01-16.56.25:165][868]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 519/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.26:936][933]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.29:885][ 41]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.30:379][ 70]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.31:606][127]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.32:618][178]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara4)
+[2016.05.01-16.56.33:842][216]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.35:590][281]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.37:252][342]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.39:173][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.56.41:633][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.56.41:633][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.56.41:633][523]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:56:41 AM)
+[2016.05.01-16.56.41:633][523]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.56.41:693][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059899s)
+[2016.05.01-16.56.41:694][523]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.56.41:695][523]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2016.05.01-16.56.41:695][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061454s)
+[2016.05.01-16.56.41:695][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.56.41:875][523]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.56.41:889][523]LogInit: FAudioDevice initialized.
+[2016.05.01-16.56.41:957][523]LogWorld: Game class is 'GameMode'
+[2016.05.01-16.56.41:984][523]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.56.41
+[2016.05.01-16.56.41:991][523]LogWorld: Bringing up level for play took: 0.032005
+[2016.05.01-16.56.42:004][523]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.591
+[2016.05.01-16.56.42:004][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.56.42:062][524]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.57.01:248][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.57.01:394][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.57.27:243][521]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.57.52:432][599]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.57.59:329][896]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.11:960][591]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.12:525][617]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.25:021][406]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.01-16.58.27:409][565]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2016.05.01-16.58.27:432][566]Cmd: UpdateLandscapeSetup
+[2016.05.01-16.58.27:451][567]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.29:681][705]Cmd: UpdateLandscapeSetup
+[2016.05.01-16.58.29:693][706]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.31:617][810]Cmd: UpdateLandscapeSetup
+[2016.05.01-16.58.31:630][811]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.48:543][674]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 472/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.49:389][736]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 511/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.58.51:026][781]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.00:983][224]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2016.05.01-16.59.02:357][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.59.02:357][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-16.59.02:357][323]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2016, 7:59:02 AM)
+[2016.05.01-16.59.02:357][323]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.01-16.59.02:408][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050694s)
+[2016.05.01-16.59.02:409][323]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.01-16.59.02:409][323]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2016.05.01-16.59.02:409][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.052204s)
+[2016.05.01-16.59.02:409][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-16.59.02:410][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-16.59.02:480][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-16.59.02:493][323]LogInit: FAudioDevice initialized.
+[2016.05.01-16.59.02:548][323]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-16.59.02:576][323]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.01-12.59.02
+[2016.05.01-16.59.02:588][323]LogWorld: Bringing up level for play took: 0.036971
+[2016.05.01-16.59.02:590][323]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-16.59.02:610][323]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.013
+[2016.05.01-16.59.02:610][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-16.59.02:686][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.04:880][418]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.06:244][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.10:542][708]LogBlueprintUserMessages: [MechChara_C_11937] leftOn
+[2016.05.01-16.59.10:674][715]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.MechChara_C_11937
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-16.59.10:674][715]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-16.59.10:674][715]LogBlueprintUserMessages: [MechChara_C_11937] Hello
+[2016.05.01-16.59.10:713][717]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.11:416][752]LogBlueprintUserMessages: [MechChara_C_11937] LeftOff
+[2016.05.01-16.59.11:587][761]LogBlueprintUserMessages: [MechChara_C_11937] leftOn
+[2016.05.01-16.59.11:668][765]LogBlueprintUserMessages: [MechChara_C_11937] 1
+[2016.05.01-16.59.11:787][771]LogBlueprintUserMessages: [MechChara_C_11937] Hello
+[2016.05.01-16.59.11:822][773]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.12:783][820]LogBlueprintUserMessages: [MechChara_C_11937] 1
+[2016.05.01-16.59.13:203][842]LogBlueprintUserMessages: [MechChara_C_11937] LeftOff
+[2016.05.01-16.59.13:261][845]LogBlueprintUserMessages: [MechChara_C_11937] leftOn
+[2016.05.01-16.59.14:108][889]LogBlueprintUserMessages: [MechChara_C_11937] LeftOff
+[2016.05.01-16.59.15:750][973]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.21:120][254]LogBlueprintUserMessages: [MechChara_C_11937] leftOn
+[2016.05.01-16.59.21:459][273]LogBlueprintUserMessages: [MechChara_C_11937] Hello
+[2016.05.01-16.59.21:494][275]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-16.59.22:445][325]LogBlueprintUserMessages: [MechChara_C_11937] 1
+[2016.05.01-17.00.08:038][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-17.00.08:133][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.01-17.00.08:226][787]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.00.27:122][522]LogSavePackage: Save=1286.22ms
+[2016.05.01-17.00.27:129][522]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonExampleMap7B1119CC4AB96AED41224D878B74DDF7.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.01-17.00.27:138][522]LogSavePackage: Total save time: 1852.33ms
+[2016.05.01-17.00.27:138][522]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.01-17.00.27:189][522]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.047
+[2016.05.01-17.00.27:195][522]Cmd: MAP LOAD FILE="F:/UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/MechMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-17.00.27:265][522]LightingResults: New page: Lighting Build
+[2016.05.01-17.00.27:303][522]LoadErrors: New page: Loading map: MechMap1.umap
+[2016.05.01-17.00.27:345][522]MapCheck: New page: Map Check
+[2016.05.01-17.00.27:345][522]LightingResults: New page: Lighting Build
+[2016.05.01-17.00.28:128][522]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.00.28:272][522]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-17.00.28:335][522]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-17.00.28:434][522]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.91ms to complete.
+[2016.05.01-17.00.28:434][522]LogFileHelpers: Loading map 'MechMap1' took 1.244
+[2016.05.01-17.00.28:591][525]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 408/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.00.30:323][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.00.30:323][633]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:00:30 AM)
+[2016.05.01-17.00.30:323][633]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.00.30:331][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008024s)
+[2016.05.01-17.00.30:332][633]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.00.30:332][633]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2016.05.01-17.00.30:332][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.009228s)
+[2016.05.01-17.00.30:332][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.00.30:332][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-17.00.30:372][633]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.00.30:380][633]LogInit: FAudioDevice initialized.
+[2016.05.01-17.00.30:435][633]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-17.00.30:449][633]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.00.30
+[2016.05.01-17.00.30:470][633]LogWorld: Bringing up level for play took: 0.031497
+[2016.05.01-17.00.30:471][633]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-17.00.30:487][633]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 -0.111
+[2016.05.01-17.00.30:546][634]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.00.37:222][ 45]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.00.37:950][ 76]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.01-17.00.41:199][295]Cmd: UpdateLandscapeSetup
+[2016.05.01-17.00.41:519][317]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.00.42:793][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.00.42:794][379]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:00:42 AM)
+[2016.05.01-17.00.42:794][379]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.00.42:801][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007747s)
+[2016.05.01-17.00.42:802][379]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.00.42:802][379]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2016.05.01-17.00.42:803][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.008939s)
+[2016.05.01-17.00.42:844][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.00.42:853][379]LogInit: FAudioDevice initialized.
+[2016.05.01-17.00.42:907][379]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.00.42:920][379]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.00.42
+[2016.05.01-17.00.42:923][379]LogWorld: Bringing up level for play took: 0.014060
+[2016.05.01-17.00.42:938][379]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.34
+[2016.05.01-17.00.42:998][380]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.41:431][197]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.45:148][451]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.45:637][477]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.49:902][814]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.52:016][980]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.57:897][354]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.01.58:598][390]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.01:431][599]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor2)
+[2016.05.01-17.02.05:189][861]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.05:324][866]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2016.05.01-17.02.08:877][127]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor2)
+[2016.05.01-17.02.11:852][273]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.12:709][346]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.12:929][363]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.01-17.02.12:975][364]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.13:040][368]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.13:160][376]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.29:574][941]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.29:843][952]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.30:623][ 10]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.30:718][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.01-17.02.30:781][ 20]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.31:058][ 43]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.31:307][ 62]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.31:415][ 70]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (mechinsurgentSRIGEXPORT_385)
+[2016.05.01-17.02.31:477][ 71]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.31:844][102]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.32:497][156]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.32:679][170]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.32:999][197]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.33:243][218]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.33:379][228]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.35:704][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.35:950][446]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.37:881][514]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.38:135][528]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.39:147][604]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (mechinsurgentSRIGEXPORT_385)
+[2016.05.01-17.02.39:179][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.39:241][609]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.43:576][993]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.43:878][ 15]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.48:352][186]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.48:886][235]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.49:979][328]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.50:044][332]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.50:107][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.50:289][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.50:350][347]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.52:026][418]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.52:229][432]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.55:232][573]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.55:683][592]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.55:845][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.56:049][621]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.56:396][639]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.56:724][661]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.56:789][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.57:297][705]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.57:603][725]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.57:796][740]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.02.59:675][842]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.02:120][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.02:422][ 72]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.02:899][ 94]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.03:015][102]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.03:771][137]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.04:057][150]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.04:205][157]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.04:427][171]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.04:883][192]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.05:163][215]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.05:722][238]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.06:066][265]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.06:370][280]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.07:319][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.07:529][362]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.07:664][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.07:812][382]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.08:034][397]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.08:236][409]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.08:869][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.08:955][459]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.09:531][509]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.09:701][524]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.09:791][530]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.09:996][539]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.10:197][551]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.10:352][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.10:705][589]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.11:125][625]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.11:353][644]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.11:750][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.13:017][784]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.13:315][797]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.13:503][812]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.14:146][838]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.14:354][854]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.14:802][884]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.15:228][902]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.15:421][916]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.15:722][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.16:056][956]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.16:328][978]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.16:417][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.01-17.03.16:480][986]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.17:258][ 57]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.17:595][ 87]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.17:665][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.01-17.03.17:710][ 94]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.18:239][139]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.19:327][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.03.19:327][199]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:03:19 AM)
+[2016.05.01-17.03.19:327][199]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.03.19:336][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008335s)
+[2016.05.01-17.03.19:337][199]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.03.19:337][199]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2016.05.01-17.03.19:337][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.009905s)
+[2016.05.01-17.03.19:337][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.03.19:338][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-17.03.19:385][199]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.03.19:395][199]LogInit: FAudioDevice initialized.
+[2016.05.01-17.03.19:448][199]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.03.19:463][199]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.03.19
+[2016.05.01-17.03.19:465][199]LogWorld: Bringing up level for play took: 0.014882
+[2016.05.01-17.03.19:479][199]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.879
+[2016.05.01-17.03.19:542][200]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.49:478][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.49:561][125]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (mechinsurgentSRIGEXPORT_385)
+[2016.05.01-17.03.49:964][146]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.50:200][160]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.50:370][169]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.50:936][183]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.51:312][198]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.51:931][216]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.52:370][228]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.03.52:665][240]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.00:161][505]LogAnimation:Warning: Setting an additve animation (AimOffset) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.01-17.04.03:896][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.04:804][649]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1:PersistentLevel.mechinsurgentSRIGEXPORT_9"
+[2016.05.01-17.04.05:023][654]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.05:480][678]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.07:240][739]Cmd: DELETE
+[2016.05.01-17.04.07:240][739]Cmd: ACTOR DELETE
+[2016.05.01-17.04.07:241][739]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.05.01-17.04.07:286][739]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2016.05.01-17.04.07:306][740]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.08:533][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.09:330][806]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1:PersistentLevel.mechinsurgentSRIGEXPORT_12"
+[2016.05.01-17.04.10:589][854]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.11:823][885]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.12:403][909]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.12:466][913]Cmd: TRANSACTION UNDO
+[2016.05.01-17.04.12:466][913]LogEditorTransaction: Undo Create Actors
+[2016.05.01-17.04.12:649][913]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-17.04.12:677][913]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-17.04.12:756][913]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.16:282][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-17.04.16:282][962]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-17.04.16:282][962]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-17.04.16:307][963]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.17:900][ 16]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.19:074][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.19:890][ 91]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.20:061][ 96]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.25:960][284]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.26:731][314]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1:PersistentLevel.mechinsurgentSRIGEXPORT_15"
+[2016.05.01-17.04.28:122][390]Cmd: TRANSACTION UNDO
+[2016.05.01-17.04.28:122][390]LogEditorTransaction: Undo Create Actors
+[2016.05.01-17.04.28:159][390]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-17.04.28:178][390]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-17.04.28:226][391]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.31:120][452]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-17.04.31:120][452]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-17.04.31:120][452]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-17.04.31:162][453]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.33:623][497]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-17.04.33:764][499]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 444/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.04.41:398][648]LogAnimation:Warning: Setting an additve animation (Aim3) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.01-17.04.57:642][952]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.05.04:857][253]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.05.06:440][330]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.14.08:896][177]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.14.10:541][264]LogAnimation:Warning: Setting an additve animation (AimOffset) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.01-17.14.10:565][265]LogAnimation:Warning: Setting an additve animation (Aim3) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.01-17.14.20:070][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.14.22:081][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/MechaInsurgent/MechChara" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechChara.uasset" SILENT=true
+[2016.05.01-17.14.25:200][802]LogSavePackage: Save=2740.27ms
+[2016.05.01-17.14.25:202][802]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechChara21F070134938A5747FAB0D9FCE2BBCF7.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechChara.uasset'
+[2016.05.01-17.14.25:212][802]LogSavePackage: Total save time: 3126.39ms
+[2016.05.01-17.14.25:212][802]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechChara.uasset
+[2016.05.01-17.14.25:316][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.14.25:589][802]LogSavePackage: Save=185.65ms
+[2016.05.01-17.14.25:589][802]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechMap13EBF510A4F174606E53FDEB5C081E7B2.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/MechMap1.umap'
+[2016.05.01-17.14.25:603][802]LogSavePackage: Total save time: 248.28ms
+[2016.05.01-17.14.25:603][802]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/MechMap1.umap
+[2016.05.01-17.14.25:665][802]LogFileHelpers: Saving map 'MechMap1' took 0.448
+[2016.05.01-17.16.05:161][994]AssetRegistry: New page: Content migration completed successfully!
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/1-BackBack
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/Backback_Colorize
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-BackBack_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-BackBack_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-BackBack_RoughnessAoMetallic
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/1-Arm
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/Arm_Decal_Colorize
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Arm_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Arm_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Arm_RoughnessAoMetallic
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Head_Colorize
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Head_emiss
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-head_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-head_Emissive
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-head_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-head_RoughnessAoMetallic
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/1-head
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Leg_Colorize
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Leg_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Leg_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Leg_RoughnessAoMetallic
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/1-Leg
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Torso_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Torso_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Torso_RoughnessAoMetallic
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/1-Torso
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Cable_BaseColor
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Cable_Normal
+[2016.05.01-17.16.05:162][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Cable_RoughnessAoMetallic
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Cable
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Hand_BaseColor
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Hand_Normal
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_1-Hand_RoughnessAoMetallic
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Hand
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility_BaseColor
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility_Emissive
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility_ID
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility_Normal
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility_RoughnessAoMetallic
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Utility
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility2_BaseColor
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility2_Normal
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/MechInsurgentSubstancePainter_Utility2_RoughnessAoMetallic
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Utility2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/mechinsurgentSRIGEXPORT_380_PhysicsAsset
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Idle
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Center
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Down_Center
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Down_Left
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Down_Right
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Left
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Right
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Up
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Up_Left
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Up_Right
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/AimOffset
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Crouch_loop
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Idle_Search
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_End_001
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_From_Run
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_From_Run_End_001
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_From_Run_Mid
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_Middle
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Jump_Start
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Posses2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Reload
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Shoot_2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_WallRide_L
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_WallRide_R
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Crouch_WALK
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Crouch_WALK_Backwards
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Crouch_WALK_Left
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Crouch_WALK_Right
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Crouch_BS
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Forward_2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Left2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Right_2
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_Backward
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_Forwards
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Jog_BS
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_Left
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_RIGHT
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Walk_BS
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MechChara
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MechSurgAnim
+[2016.05.01-17.16.05:163][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/ring1_Anim_Armature_RingSpin
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/ring1_Skeleton
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/ring1
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Material_002
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Holo2
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/ring1_PhysicsAsset
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/CubeBP
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MyInterface/CamShake1
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MyInterface/Health_Ammo_Bar
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MyInterface/hud
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/LaserMaterial
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/LaserTexture
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Ring2
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/HoloRing
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Audio/Steam01
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/P_Explosion
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/Materials/M_Burst
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Burst_M
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/Materials/M_explosion_subUV
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Explosion_SubUV
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/Materials/m_flare_01
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/Materials/M_radial_ramp
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Smoke_SubUV
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Smoke_Tiled_D
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/8d82b5_Kriss_Vector_Firing_Sound_Effect
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/kriss
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/GUn
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/KrissVector_Gun_BaseColor
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/KrissVector_Gun_Normal
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/KrissVector_Gun_RoughnessAoMetallic
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/GunGlass_001
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/GunRed_001
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/kriss_PhysicsAsset
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/kriss_Skeleton
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/LaserBeam
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/ring
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MechGame
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/RightArm_StaticMesh
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/RampMaterial
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/Ramp_StaticMesh
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/LeftArm_StaticMesh
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Meshes/Bump_StaticMesh
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Aim3
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Left_001
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Down_Left_001
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Aim_Up_Right_001
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Kick_R
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Death
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/Maps/MechMap1
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Materials/M_Basic_Wall
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Materials/M_Concrete_Tiles
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Concrete_Tiles_D
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Concrete_Tiles_M
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_Concrete_Tiles_Variation_M
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Textures/T_MacroVariation
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/StarterContent/Materials/M_Glass
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/Geometry/Meshes/1M_Cube
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/Geometry/Meshes/CubeMaterial
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/BackBack_Norm
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Head2_Normal
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Head_Diff
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/kriss
+[2016.05.01-17.16.05:164][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/GunGlass
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/GunRed
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Material
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/kriss_PhysicsAsset
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/kriss_Skeleton
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MechaAi
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_PhysicsAsset
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/ring1_Anim_Armature_RingSpin
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Utility
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Utility1_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Utility_Norm
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Vest_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Vest_Norm1
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Aim
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Idle2
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Kick_L
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Melee
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Posses1
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_PossesAttack
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Backwards
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Forward
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Run_Forward2
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Shoot
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_Backward2
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/mechinsurgentSRIGEXPORT_380_Walk_Forward
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Melee_Montage
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/NewAimOffsetBlendSpace
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Animation/Shoot_Montage
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Gun/MP5_SMG-GunGuru-703432894
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Arm1_normal
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Arm_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Backback_diff1
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/BackBack_Norm
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Cable_normal
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Head2_Normal
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Head_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Kriss_AO
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Kriss_Diffuse
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Kriss_Normal
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/leg1_Norm
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Leg_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Material_005
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Utility1_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/utility2_diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/utility2_normal
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Utility_Norm
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Vest_Diff
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Materials/Vest_Norm1
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MyInterface/Font1
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/MyInterface/MechaHud
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/Head_Colorize
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/MechaInsurgent/Textures/Leg_Colorize
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/1_alum_
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/Gun
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/Tileable_eroded_scratch_metal_texture_background_10
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/GunGlass_002
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/GunRed_002
+[2016.05.01-17.16.05:165][994]AssetRegistry: Info /Game/ThirdPerson/NewFolder/MechGame
+[2016.05.01-17.20.17:246][ 46]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.17:582][ 47]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.18:081][ 48]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.22:673][ 62]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.23:007][ 63]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.23:507][ 64]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.24:008][ 65]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.24:507][ 66]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.25:007][ 67]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.20.25:508][ 68]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.05.01-17.21.28:914][258]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.05.01-17.21.29:762][294]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.30:570][345]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.30:969][359]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.31:225][377]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.31:424][384]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.31:585][392]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.31:789][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.21.33:073][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.21.33:073][484]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:21:33 AM)
+[2016.05.01-17.21.33:073][484]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.21.33:102][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028681s)
+[2016.05.01-17.21.33:103][484]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.21.33:103][484]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2016.05.01-17.21.33:104][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.030325s)
+[2016.05.01-17.21.33:149][484]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.21.33:161][484]LogInit: FAudioDevice initialized.
+[2016.05.01-17.21.33:222][484]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.21.33:236][484]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.21.33
+[2016.05.01-17.21.33:239][484]LogWorld: Bringing up level for play took: 0.015260
+[2016.05.01-17.21.33:252][484]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.64
+[2016.05.01-17.21.33:336][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.23:093][980]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.37:974][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.40:458][205]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.40:803][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.40:894][223]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.27.40:918][224]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-17.27.49:851][619]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-17.27.49:851][619]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-17.27.54:294][829]Warning: Unknown property in MechChara_C: WallRun.L="WallRun.L" 
+[2016.05.01-17.27.54:294][829]Warning: Unknown property in MechChara_C: WallRun.R="WallRun.R" 
+[2016.05.01-17.27.57:600][986]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara)
+[2016.05.01-17.28.04:058][214]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.04:833][236]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.07:365][328]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.09:356][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.10:126][464]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara2)
+[2016.05.01-17.28.11:376][506]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.13:596][593]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.13:799][595]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.14:997][625]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.15:092][627]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.18:095][763]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.19:017][815]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara3)
+[2016.05.01-17.28.21:114][922]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.22:996][989]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.23:262][996]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.24:376][ 46]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.25:895][124]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.28:086][232]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.28:990][279]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara2)
+[2016.05.01-17.28.31:072][374]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.32:224][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.28.32:225][410]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:28:32 AM)
+[2016.05.01-17.28.32:225][410]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.28.32:236][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010954s)
+[2016.05.01-17.28.32:237][410]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.28.32:237][410]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2016.05.01-17.28.32:237][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.012340s)
+[2016.05.01-17.28.32:355][410]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.28.32:368][410]LogInit: FAudioDevice initialized.
+[2016.05.01-17.28.32:431][410]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.28.32:449][410]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.28.32
+[2016.05.01-17.28.32:454][410]LogWorld: Bringing up level for play took: 0.020412
+[2016.05.01-17.28.32:469][410]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 -0.148
+[2016.05.01-17.28.32:522][411]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.51:801][347]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.28.57:933][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.05.01-17.28.58:435][381]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.05.01-17.28.58:936][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.05.01-17.29.47:773][531]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.29.49:527][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.29.49:527][600]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:29:49 AM)
+[2016.05.01-17.29.49:527][600]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.29.49:542][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015274s)
+[2016.05.01-17.29.49:544][600]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.29.49:544][600]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2016.05.01-17.29.49:544][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.017084s)
+[2016.05.01-17.29.49:618][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.29.49:629][600]LogInit: FAudioDevice initialized.
+[2016.05.01-17.29.49:685][600]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.29.49:703][600]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.29.49
+[2016.05.01-17.29.49:710][600]LogWorld: Bringing up level for play took: 0.023221
+[2016.05.01-17.29.49:726][600]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 1.109
+[2016.05.01-17.29.49:780][601]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.31.25:940][467]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.32.12:512][625]LogSavePackage: Save=229.74ms
+[2016.05.01-17.32.12:513][625]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechMap1_Auto1398EE46642BCBE83364960BA20684680.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/MechMap1_Auto1.umap'
+[2016.05.01-17.32.12:517][625]LogSavePackage: Total save time: 410.27ms
+[2016.05.01-17.32.12:517][625]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/MechMap1_Auto1.umap
+[2016.05.01-17.32.12:520][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MechMap1' took 0.492
+[2016.05.01-17.32.12:520][625]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.492
+[2016.05.01-17.32.12:945][628]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.33.39:950][889]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.33.55:950][937]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.34.22:618][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.35.21:658][196]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.35.30:126][535]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.35.32:270][576]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.35.35:026][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.35.35:026][650]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:35:35 AM)
+[2016.05.01-17.35.35:026][650]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.35.35:038][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012078s)
+[2016.05.01-17.35.35:040][650]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.35.35:040][650]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2016.05.01-17.35.35:040][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.013526s)
+[2016.05.01-17.35.35:040][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.35.35:122][650]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.35.35:134][650]LogInit: FAudioDevice initialized.
+[2016.05.01-17.35.35:195][650]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.35.35:236][650]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.35.35
+[2016.05.01-17.35.35:242][650]LogWorld: Bringing up level for play took: 0.044315
+[2016.05.01-17.35.35:255][650]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.633
+[2016.05.01-17.35.35:314][651]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.37.55:249][121]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 421/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.37.55:340][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.01-17.37.56:070][138]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 421/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.37.57:529][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.37.57:529][185]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:37:57 AM)
+[2016.05.01-17.37.57:529][185]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.37.57:542][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012428s)
+[2016.05.01-17.37.57:543][185]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.37.57:543][185]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2016.05.01-17.37.57:543][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.013701s)
+[2016.05.01-17.37.57:584][185]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.37.57:595][185]LogInit: FAudioDevice initialized.
+[2016.05.01-17.37.57:651][185]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.37.57:673][185]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.37.57
+[2016.05.01-17.37.57:678][185]LogWorld: Bringing up level for play took: 0.024043
+[2016.05.01-17.37.57:691][185]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 1.068
+[2016.05.01-17.37.57:749][186]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.26:717][811]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.27:754][920]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.27:800][925]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara4)
+[2016.05.01-17.38.28:271][925]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.28:337][926]LogEditorViewport: Clicking on Actor (LMB): MechChara_C (MechChara4)
+[2016.05.01-17.38.29:489][  2]Cmd: DELETE
+[2016.05.01-17.38.29:489][  2]Cmd: ACTOR DELETE
+[2016.05.01-17.38.29:490][  2]LogEditorActor: Deleted Actor: MechChara_C
+[2016.05.01-17.38.29:562][  2]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2016.05.01-17.38.29:809][ 28]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.31:077][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.38.31:077][ 87]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:38:31 AM)
+[2016.05.01-17.38.31:077][ 87]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.38.31:088][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011026s)
+[2016.05.01-17.38.31:089][ 87]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.38.31:089][ 87]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2016.05.01-17.38.31:090][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.012314s)
+[2016.05.01-17.38.31:131][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.38.31:142][ 87]LogInit: FAudioDevice initialized.
+[2016.05.01-17.38.31:197][ 87]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.38.31:217][ 87]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.38.31
+[2016.05.01-17.38.31:222][ 87]LogWorld: Bringing up level for play took: 0.021243
+[2016.05.01-17.38.31:233][ 87]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.61
+[2016.05.01-17.38.31:297][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.43:334][790]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.44:201][882]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (mechinsurgentSRIGEXPORT_385)
+[2016.05.01-17.38.44:282][883]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.44:380][886]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.38.44:993][944]Cmd: DELETE
+[2016.05.01-17.38.44:993][944]Cmd: ACTOR DELETE
+[2016.05.01-17.38.44:995][944]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.05.01-17.38.45:032][944]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2016.05.01-17.38.46:543][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-17.38.46:543][ 50]PIE: New page: PIE session: MechMap1 (May 1, 2016, 8:38:46 AM)
+[2016.05.01-17.38.46:543][ 50]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1
+[2016.05.01-17.38.46:560][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016054s)
+[2016.05.01-17.38.46:561][ 50]LogAIModule: Creating AISystem for world MechMap1
+[2016.05.01-17.38.46:561][ 50]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2016.05.01-17.38.46:561][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MechMap1.MechMap1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 (0.017849s)
+[2016.05.01-17.38.46:604][ 50]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-17.38.46:616][ 50]LogInit: FAudioDevice initialized.
+[2016.05.01-17.38.46:675][ 50]LogWorld: Game class is 'GameMode'
+[2016.05.01-17.38.46:693][ 50]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1.MechMap1 up for play (max tick rate 0) at 2016.05.01-13.38.46
+[2016.05.01-17.38.46:698][ 50]LogWorld: Bringing up level for play took: 0.020308
+[2016.05.01-17.38.46:709][ 50]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MechMap1 0.086
+[2016.05.01-17.38.46:774][ 51]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.40.33:669][105]Cmd: SELECT NONE
+[2016.05.01-17.40.33:796][115]Cmd: SELECT NONE
+[2016.05.01-17.40.36:849][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.40.37:160][436]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.40.37:289][446]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.01-17.40.42:563][671]LogSavePackage: Save=222.61ms
+[2016.05.01-17.40.42:564][671]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechMap14F9D53884F2E5D4F3ABDC7B6755CCD40.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/MechMap1.umap'
+[2016.05.01-17.40.42:571][671]LogSavePackage: Total save time: 285.14ms
+[2016.05.01-17.40.42:571][671]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/MechMap1.umap
+[2016.05.01-17.40.42:619][671]LogFileHelpers: Saving map 'MechMap1' took 3.159
+[2016.05.01-17.50.44:843][753]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-17.50.44:878][753]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-17.50.44:972][753]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-17.50.45:099][753]LogMaterial: Missing cached shader map for material 1-head, compiling. 
+[2016.05.01-17.50.45:400][753]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 133 instances, 0 with static permutations.
+[2016.05.01-17.50.45:411][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-17.50.54:437][753]LogSavePackage: Save=31.35ms
+[2016.05.01-17.50.54:437][753]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/1-head7035E48C403CE947398682B76C43D133.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/Materials/1-head.uasset'
+[2016.05.01-17.50.54:443][753]LogSavePackage: Total save time: 56.69ms
+[2016.05.01-17.50.54:443][753]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/Materials/1-head.uasset
+[2016.05.01-17.50.56:560][754]Cmd: QUIT_EDITOR
+[2016.05.01-17.50.58:434][754]LogExit: Preparing to exit.
+[2016.05.01-17.51.00:229][754]LogExit: Editor shut down
+[2016.05.01-17.51.00:288][754]LogExit: Transaction tracking system shut down
+[2016.05.01-17.51.04:471][754]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.01-17.51.04:472][754]LogExit: Object subsystem successfully closed.
+[2016.05.01-17.51.04:756][754]LogD3D11RHI: Shutdown
+[2016.05.01-17.51.04:757][754]LogD3D11RHI: CleanupD3DDevice
+[2016.05.01-17.51.05:206][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.01-17.51.05:848][754]LogDerivedDataCache: Shutdown
+[2016.05.01-17.51.06:149][754]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.05.01-17.51.06:150][754]LogModuleManager: Shutting down and abandoning module TextureEditor (207)
+[2016.05.01-17.51.06:150][754]LogModuleManager: Shutting down and abandoning module MaterialEditor (206)
+[2016.05.01-17.51.06:150][754]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
+[2016.05.01-17.51.06:150][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.01-17.51.06:151][754]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.01-17.51.06:152][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.01-17.51.06:166][754]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.01-17.51.06:166][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.01-17.51.06:167][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.01-17.51.06:413][754]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.01-17.51.06:413][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.01-17.51.06:413][754]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.01-17.51.06:473][754]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.01-17.51.06:477][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.01-17.51.06:487][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.01-17.51.06:496][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.01-17.51.06:510][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.01-17.51.06:522][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.01-17.51.06:525][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.01-17.51.06:525][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.01-17.51.06:528][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.01-17.51.06:528][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.01-17.51.07:478][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.01-17.51.07:479][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.01-17.51.07:479][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.01-17.51.07:479][754]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.01-17.51.07:682][754]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.01-17.51.07:891][754]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.01-17.51.07:893][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.01-17.51.08:086][754]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.01-17.51.08:161][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.01-17.51.08:341][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.01-17.51.08:341][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.01-17.51.08:354][754]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.01-17.51.08:364][754]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.01-17.51.08:365][754]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.01-17.51.08:370][754]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.01-17.51.08:378][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.01-17.51.08:379][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.01-17.51.08:379][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.01-17.51.08:403][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.01-17.51.08:404][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.01-17.51.08:409][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.01-17.51.08:427][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.01-17.51.08:438][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.01-17.51.08:452][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.01-17.51.08:452][754]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.01-17.51.08:492][754]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.01-17.51.08:509][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.01-17.51.08:534][754]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.01-17.51.08:563][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.01-17.51.08:563][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.01-17.51.08:598][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.01-17.51.08:619][754]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.01-17.51.08:628][754]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.01-17.51.08:633][754]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.01-17.51.08:633][754]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.01-17.51.08:636][754]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.01-17.51.08:648][754]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.01-17.51.08:656][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.01-17.51.08:698][754]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.01-17.51.08:705][754]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.01-17.51.08:718][754]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.01-17.51.08:727][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.01-17.51.08:732][754]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.01-17.51.08:733][754]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.01-17.51.08:931][754]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.01-17.51.08:964][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.01-17.51.08:965][754]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.01-17.51.08:977][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.01-17.51.08:977][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.01-17.51.09:001][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.01-17.51.09:001][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.01-17.51.09:001][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.01-17.51.09:022][754]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.01-17.51.09:036][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.01-17.51.09:062][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.01-17.51.09:064][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.01-17.51.09:064][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.01-17.51.09:089][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.01-17.51.09:102][754]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.01-17.51.09:115][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.01-17.51.09:134][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.01-17.51.09:134][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.01-17.51.09:138][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.01-17.51.09:138][754]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.01-17.51.09:147][754]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.01-17.51.09:163][754]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.01-17.51.09:163][754]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.01-17.51.09:194][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.01-17.51.09:279][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.01-17.51.10:333][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.01-17.51.10:376][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.01-17.51.10:392][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.01-17.51.10:492][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.01-17.51.10:492][754]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.01-17.51.10:495][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.01-17.51.10:508][754]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.01-17.51.10:508][754]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.01-17.51.10:530][754]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.01-17.51.10:530][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.01-17.51.10:537][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.01-17.51.10:547][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.01-17.51.10:552][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.01-17.51.10:552][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.01-17.51.10:571][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.01-17.51.10:579][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.01-17.51.10:580][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.01-17.51.10:600][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.01-17.51.10:600][754]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.01-17.51.10:600][754]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.01-17.51.10:631][754]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.01-17.51.10:639][754]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.01-17.51.10:643][754]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.01-17.51.10:679][754]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.01-17.51.10:716][754]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.01-17.51.10:717][754]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.01-17.51.10:763][754]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.01-17.51.10:763][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.01-17.51.10:773][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.01-17.51.10:773][754]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.01-17.51.10:773][754]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.01-17.51.10:773][754]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.01-17.51.10:773][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.01-17.51.10:776][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.01-17.51.10:781][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.01-17.51.10:799][754]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.01-17.51.10:799][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.01-17.51.10:799][754]LogDerivedDataCache: Shutdown
+[2016.05.01-17.51.10:799][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.01-17.51.10:807][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.01-17.51.10:809][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.01-17.51.10:819][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.01-17.51.10:819][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.01-17.51.10:830][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.01-17.51.10:847][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.01-17.51.10:852][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.01-17.51.10:852][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.01-17.51.10:852][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.01-17.51.10:852][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.01-17.51.10:852][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.01-17.51.10:862][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.01-17.51.10:874][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.01-17.51.10:874][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.01-17.51.10:884][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.01-17.51.10:894][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.01-17.51.10:901][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.01-17.51.10:902][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.01-17.51.10:907][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.01-17.51.10:918][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.01-17.51.10:919][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.01-17.51.10:919][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.01-17.51.10:919][754]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.01-17.51.10:919][754]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.01-17.51.10:927][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.01-17.51.10:927][754]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.01-17.51.13:448][754]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.01-17.51.13:686][754]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.01-17.51.13:705][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.01-17.51.13:705][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.01-17.51.13:781][754]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.01-17.51.13:781][754]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.01-17.51.13:781][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.01-17.51.13:824][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.01-17.51.13:833][754]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.01-17.51.13:845][754]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.01-17.51.13:846][754]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.01-17.51.13:848][754]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.01-17.51.13:937][754]LogExit: Exiting.
+[2016.05.01-17.51.14:156][754]Log file closed, 05/01/16 13:51:14
