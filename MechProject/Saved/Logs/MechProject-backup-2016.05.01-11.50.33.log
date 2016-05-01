@@ -1,0 +1,1514 @@
+﻿Log file open, 05/01/16 10:49:57
+LogInit:Display: Running engine for game: MechProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2145375392) SRandInit(2145375393).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads.
+LogStats: Stats thread started at 0.115401
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/Programs/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.01-14.49.57:666][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-14.49.57:666][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.01-14.49.57:688][  0]LogInit: Computer: Z600-PC
+[2016.05.01-14.49.57:688][  0]LogInit: User: Z600
+[2016.05.01-14.49.57:688][  0]LogInit: CPU Page size=65536, Cores=8
+[2016.05.01-14.49.57:688][  0]LogInit: High frequency timer resolution =2.597685 MHz
+[2016.05.01-14.49.57:689][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.05.01-14.49.57:689][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.01-14.49.57:689][  0]LogMemory: Process Physical Memory: 316.06 MB used, 316.06 MB peak
+[2016.05.01-14.49.57:689][  0]LogMemory: Process Virtual Memory: 320.86 MB used, 320.86 MB peak
+[2016.05.01-14.49.57:689][  0]LogMemory: Physical Memory: 5308.50 MB used, 12271.22 MB total
+[2016.05.01-14.49.57:689][  0]LogMemory: Virtual Memory: 626.74 MB used, 8388608.00 MB total
+[2016.05.01-14.49.57:752][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.01-14.49.58:327][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.01-14.49.58:351][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.05.01-14.49.58:351][  0]LogD3D11RHI:       1992MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.05.01-14.49.58:351][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.01-14.49.58:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.01-14.49.58:374][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.05.01-14.49.58:374][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.01-14.49.58:374][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.01-14.49.58:374][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.01-14.49.58:387][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.01-14.49.58:407][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../UnrealProjects/UnrealProject/MechProject/Intermediate/Shaders/WorkingDirectory/5560/).
+[2016.05.01-14.49.58:407][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Z600/AppData/Local/Temp/UnrealShaderWorkingDir/5843D2814B82A4B567CA40BC56C3F1EF/'.
+[2016.05.01-14.49.58:407][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.01-14.49.59:710][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.01-14.49.59:716][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.01-14.49.59:722][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.01-14.49.59:728][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.01-14.49.59:733][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.01-14.49.59:738][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.01-14.49.59:743][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.01-14.49.59:747][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.01-14.49.59:752][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.01-14.49.59:757][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.01-14.49.59:761][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.01-14.49.59:771][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.01-14.49.59:771][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.01-14.49.59:773][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.01-14.49.59:792][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.01-14.49.59:796][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.01-14.49.59:801][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.01-14.49.59:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.01-14.49.59:810][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.01-14.49.59:810][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.01-14.49.59:907][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache: Loaded boot cache 0.08s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/UnrealProject/MechProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/UnrealProject/MechProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.01-14.49.59:984][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.01-14.50.00:008][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.01-14.50.00:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Z600/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.01-14.50.00:250][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-14.50.00:252][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.01-14.50.00:291][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.01-14.50.00:482][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.01-14.50.00:482][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.01-14.50.00:482][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.01-14.50.00:813][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.01-14.50.00:813][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.05.01-14.50.00:813][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.01-14.50.00:827][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.01-14.50.00:952][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.01-14.50.00:952][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.01-14.50.01:084][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-14.50.01:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-14.50.01:084][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-14.50.01:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-14.50.01:084][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.01-14.50.01:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.01-14.50.01:848][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.01-14.50.01:972][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2016.05.01-14.50.02:382][  0]SourceControl: Info Source control is disabled
+[2016.05.01-14.50.02:384][  0]SourceControl: Info Source control is disabled
+[2016.05.01-14.50.02:394][  0]SourceControl: Info Source control is disabled
+[2016.05.01-14.50.02:404][  0]SourceControl: Info Source control is disabled
+[2016.05.01-14.50.02:555][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.01-14.50.02:659][  0]LogEngine: Initializing Engine...
+[2016.05.01-14.50.02:871][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.01-14.50.02:882][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-14.50.02:896][  0]LogInit: FAudioDevice initialized.
+[2016.05.01-14.50.02:927][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.01-14.50.02:935][  0]LogInit: Texture streaming: Enabled
+[2016.05.01-14.50.03:013][  0]LogInit: Transaction tracking system initialized
+[2016.05.01-14.50.03:047][  0]BlueprintLog: New page: Editor Load
+[2016.05.01-14.50.03:361][  0]LocalizationService: Info Localization service is disabled
+[2016.05.01-14.50.03:480][  0]LogConsoleResponse:Display: 
+[2016.05.01-14.50.03:623][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.01-14.50.03:623][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.01-14.50.03:623][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.01-14.50.03:694][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/' took 0.02s
+[2016.05.01-14.50.03:694][  0]SourceControl: Info Source control is disabled
+[2016.05.01-14.50.03:694][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-14.50.03:753][  0]LightingResults: New page: Lighting Build
+[2016.05.01-14.50.03:758][  0]MapCheck: New page: Map Check
+[2016.05.01-14.50.03:758][  0]LightingResults: New page: Lighting Build
+[2016.05.01-14.50.12:391][  0]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-14.50.12:416][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-14.50.12:417][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-14.50.12:490][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.275ms to complete.
+[2016.05.01-14.50.12:490][  0]LogFileHelpers: Loading map 'TutorialCourse' took 8.797
+[2016.05.01-14.50.12:754][  0]LogCollectionManager: Loaded 0 collections in 0.002100 seconds
+[2016.05.01-14.50.12:800][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Saved/Collections/' took 0.01s
+[2016.05.01-14.50.12:800][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/Developers/Z600/Collections/' took 0.01s
+[2016.05.01-14.50.12:800][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/UnrealProject/MechProject/Content/Collections/' took 0.01s
+[2016.05.01-14.50.12:800][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.01-14.50.12:810][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1979 classes and 343 folders.
+[2016.05.01-14.50.12:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.01-14.50.12:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.01-14.50.12:815][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.01-14.50.12:819][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.01-14.50.12:905][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.05.01-14.50.13:780][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.05.01-14.50.13:823][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.01-14.50.14:094][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.01-14.50.14:105][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.01-14.50.14:133][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.01-14.50.14:134][  0]LogLoad: Full Startup: 17.62 seconds (BP compile: 0.85 seconds)
+[2016.05.01-14.50.14:134][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.01-14.50.14:143][  0]LogOcInput: OculusInput pre-init called
+[2016.05.01-14.50.14:234][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.01-14.50.14:524][  0]LogRenderer: Reallocating scene render targets to support 1204x576 (Frame:2).
+[2016.05.01-14.50.14:933][  2]LogAssetRegistry: Asset discovery search completed in 12.9809 seconds
+[2016.05.01-14.50.14:933][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.01-14.50.14:933][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.05.01-14.50.17:183][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-14.50.17:342][127]PIE: New page: SIE session: TutorialCourse (May 1, 2016, 5:50:17 AM)
+[2016.05.01-14.50.17:342][127]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-14.50.17:361][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018679s)
+[2016.05.01-14.50.17:363][127]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-14.50.17:363][127]LogPlayLevel: PIE: World Init took: (0.002122s)
+[2016.05.01-14.50.17:363][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.021149s)
+[2016.05.01-14.50.17:363][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-14.50.17:476][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-14.50.17:490][127]LogInit: FAudioDevice initialized.
+[2016.05.01-14.50.38:848][127]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-14.50.38:867][127]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-10.50.38
+[2016.05.01-14.50.38:871][127]LogWorld: Bringing up level for play took: 0.018244
+[2016.05.01-14.50.38:872][127]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-14.50.38:877][127]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.01-14.50.38:877][127]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 22.365
+[2016.05.01-14.50.39:026][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-14.50.39:079][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-14.50.39:079][128]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.Linear_Stair_Brush2_StaticMesh"
+[2016.05.01-14.50.40:240][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-14.50.40:240][152]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.Linear_Stair_Brush2_StaticMesh"
+[2016.05.01-14.50.52:251][139]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.50.52:251][139]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.50.52:251][139]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.50.52:263][140]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.50.52:561][163]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_38
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-14.50.52:562][163]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-14.50.52:562][163]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.50.53:117][203]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.50.53:242][213]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.50.53:388][225]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.50.53:401][226]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.50.53:561][239]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.50.53:620][244]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.50.53:632][245]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.50.53:644][246]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.50.53:656][247]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.50.53:656][247]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.50.53:667][248]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.50.55:940][453]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.50.55:940][453]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.50.56:106][468]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.50.56:940][542]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.50.56:940][542]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.50.57:101][556]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.50.58:898][721]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.50.59:167][745]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.50.59:908][812]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.00:125][832]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.01:021][913]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.01:115][921]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.03:085][ 98]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.03:545][139]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.04:547][229]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.04:754][247]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.05:408][307]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.05:881][349]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.06:842][434]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.06:882][437]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.09:376][658]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.09:608][679]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.10:610][769]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.10:788][784]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.11:402][840]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.11:509][850]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.12:500][938]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.12:693][956]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.14:906][158]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.16:441][297]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.19:581][573]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.19:884][600]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.20:874][689]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.20:906][692]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.23:519][928]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.23:670][942]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.23:725][947]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.24:043][976]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.25:041][ 64]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.25:265][ 84]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.26:041][153]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.26:405][185]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.27:065][244]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.27:396][272]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.29:030][417]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.29:629][472]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.30:441][544]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.30:623][560]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.30:954][590]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.30:954][590]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.31:117][605]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.32:721][748]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.34:985][950]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.35:097][960]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.35:281][976]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.35:282][976]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.36:280][ 65]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.36:603][ 93]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.51.36:694][101]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.51.36:811][111]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.39:347][337]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.41:909][569]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.44:227][774]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.44:774][824]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.45:772][913]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.51.46:175][950]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.51.58:346][ 38]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.51.58:777][ 78]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.51.59:772][168]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.00:139][200]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.00:757][257]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.52.00:952][275]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.01:946][364]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.02:114][379]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.52.06:061][730]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.52.06:124][736]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.07:121][825]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.07:314][842]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.07:950][899]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.52.08:014][905]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.09:014][996]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.09:214][ 14]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.52.11:549][225]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.52.11:994][265]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.12:989][354]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.13:023][357]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.52.13:170][370]LogBlueprintUserMessages: [MechChara_C_38] RightOff
+[2016.05.01-14.52.13:298][381]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.15:762][596]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.52.15:950][613]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.16:942][702]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.17:550][757]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.19:815][964]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.52.20:130][993]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.20:932][ 64]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.21:121][ 81]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.21:471][112]LogBlueprintUserMessages: [MechChara_C_38] RightOn
+[2016.05.01-14.52.21:720][134]LogBlueprintUserMessages: [MechChara_C_38] leftOn
+[2016.05.01-14.52.21:843][145]LogBlueprintUserMessages: [MechChara_C_38] Hello
+[2016.05.01-14.52.21:933][153]LogBlueprintUserMessages: [MechChara_C_38] LeftOff
+[2016.05.01-14.52.22:835][234]LogBlueprintUserMessages: [MechChara_C_38] 1
+[2016.05.01-14.52.41:389][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-14.52.41:389][376]PIE: New page: SIE session: TutorialCourse (May 1, 2016, 5:52:41 AM)
+[2016.05.01-14.52.41:389][376]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-14.52.41:402][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012602s)
+[2016.05.01-14.52.41:403][376]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-14.52.41:403][376]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2016.05.01-14.52.41:403][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.013822s)
+[2016.05.01-14.52.41:429][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-14.52.41:439][376]LogInit: FAudioDevice initialized.
+[2016.05.01-14.52.41:471][376]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-14.52.41:485][376]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-10.52.41
+[2016.05.01-14.52.41:488][376]LogWorld: Bringing up level for play took: 0.012835
+[2016.05.01-14.52.41:489][376]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-14.52.41:490][376]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.976
+[2016.05.01-14.52.47:618][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-14.52.57:565][439]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.05.01-14.53.03:834][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-14.53.03:834][780]PIE: New page: SIE session: TutorialCourse (May 1, 2016, 5:53:03 AM)
+[2016.05.01-14.53.03:835][780]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-14.53.03:845][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010588s)
+[2016.05.01-14.53.03:846][780]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-14.53.03:846][780]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2016.05.01-14.53.03:846][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.011677s)
+[2016.05.01-14.53.03:867][780]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.PlayerStart"
+[2016.05.01-14.53.03:869][780]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-14.53.03:880][780]LogInit: FAudioDevice initialized.
+[2016.05.01-14.53.03:912][780]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-14.53.03:925][780]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-10.53.03
+[2016.05.01-14.53.03:928][780]LogWorld: Bringing up level for play took: 0.012712
+[2016.05.01-14.53.03:929][780]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-14.53.03:930][780]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse -0.584
+[2016.05.01-14.53.03:940][780]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.PlayerStart"
+[2016.05.01-14.53.23:412][894]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
+[2016.05.01-14.53.28:259][ 25]LogRenderer: Reallocating scene render targets to support 1204x728 (Frame:12107).
+[2016.05.01-14.53.32:521][259]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.01-14.53.32:756][260]LogRenderer: Reallocating scene render targets to support 1204x880 (Frame:12450).
+[2016.05.01-14.56.35:231][764]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.05.01-14.57.58:885][157]LogSavePackage: Save=6.71ms
+[2016.05.01-14.57.58:885][157]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/UE4_Mannequin_Skeleton9B6981704F935EF27CFA92AE2DC8372F.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.05.01-14.57.58:890][157]LogSavePackage: Total save time: 23.71ms
+[2016.05.01-14.57.58:890][157]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.05.01-15.00.27:203][794]LogSavePackage: Save=8.23ms
+[2016.05.01-15.00.27:203][794]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_Skeleton4881A1AA4A1758738CCFD3842AA454BF.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset'
+[2016.05.01-15.00.27:209][794]LogSavePackage: Total save time: 25.94ms
+[2016.05.01-15.00.27:209][794]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset
+[2016.05.01-15.00.38:144][628]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.02.29:451][ 24]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.02.47:649][118]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.02.54:365][580]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2016.05.01-15.03.48:476][204]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.04.51:404][551]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.06.06:313][237]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.06.52:967][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2016.05.01-15.06.56:113][921]LogEditorFactories: Performing atomic reimport of [F:/3D model/MechInsurgent/Export/mechinsurgentSRIGEXPORT_380.fbx]
+[2016.05.01-15.06.56:252][921]LogFbx: Loading FBX Scene from F:/3D model/MechInsurgent/Export/mechinsurgentSRIGEXPORT_380.fbx
+[2016.05.01-15.07.02:115][921]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.01-15.07.02:347][921]LogFbx: =================================================
+[2016.05.01-15.07.02:347][921]LogFbx: Dumping Node START [Mech.Mesh.002] 
+[2016.05.01-15.07.02:347][921]LogFbx: 	Total Deformer Count 399252016.
+[2016.05.01-15.07.02:347][921]LogFbx: 		[Node 1] Armature.003 (Type Skin).
+[2016.05.01-15.07.02:347][921]LogFbx: =================================================
+[2016.05.01-15.07.02:347][921]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.01-15.07.02:347][921]LogFbx: 		[Node Attribute Child 1] Mech.Mesh.002 (Type Mesh).
+[2016.05.01-15.07.02:347][921]LogFbx: Dumping Node END [Mech.Mesh.002]
+[2016.05.01-15.07.02:349][921]LogFbx: =================================================
+[2016.05.01-15.07.02:349][921]LogFbx: Dumping Node START [Mech.Mesh.002] 
+[2016.05.01-15.07.02:349][921]LogFbx: 	Total Deformer Count 399252016.
+[2016.05.01-15.07.02:349][921]LogFbx: 		[Node 1] Armature.003 (Type Skin).
+[2016.05.01-15.07.02:349][921]LogFbx: =================================================
+[2016.05.01-15.07.02:349][921]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.01-15.07.02:349][921]LogFbx: 		[Node Attribute Child 1] Mech.Mesh.002 (Type Mesh).
+[2016.05.01-15.07.02:349][921]LogFbx: Dumping Node END [Mech.Mesh.002]
+[2016.05.01-15.07.02:357][921]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.05.01-15.07.02:427][921]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Mech.Mesh.002 : The relative matrices do not match
+[2016.05.01-15.07.02:427][921]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2016.05.01-15.07.02:445][921]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mech.Mesh.002
+[2016.05.01-15.07.02:445][921]LogFbx:Warning: Recreating bind pose succeeded.
+[2016.05.01-15.07.02:450][921]LogFbx:Warning: Warning The following bones are missing from the bind pose:
+eye3.002_end  
+Bone.010_end  
+DEF-f_pinky.03.L_end  
+DEF-f_ring.03.L_end  
+DEF-f_middle.03.L_end  
+DEF-f_index.03.L_end  
+DEF-thumb.03.L_end  
+arm3.L.001_end  
+arm3.L.002_end  
+elbow.L_end  
+eye2.L_end  
+eye2.R_end  
+eye3_end  
+DEF-f_pinky.03.R_end  
+DEF-f_ring.03.R_end  
+DEF-f_middle.03.R_end  
+DEF-f_index.03.R_end  
+DEF-thumb.03.R_end  
+arm3.R.001_end  
+arm3.R.002_end  
+elbow.R_end  
+Def-Toe.L_end  
+Def-toe.R_end  
+handIK.L_end  
+handIK.R_end  
+knee.L_end  
+toe.L_end  
+leg2.L.001_end  
+foot.L.001_end  
+knee.R_end  
+toe.R_end  
+leg2.R.001_end  
+foot.R.001_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh.
+[2016.05.01-15.07.02:472][921]LogFbx: Triangulating skeletal mesh Mech.Mesh.002
+[2016.05.01-15.07.02:816][921]LogFbx:Warning: Bones digested - 124  Depth of hierarchy - 15
+[2016.05.01-15.07.03:336][921]LogSkeletalMesh: Chunk 0: 2842 rigid vertices, 294 soft vertices, 5 active bones
+[2016.05.01-15.07.03:336][921]LogSkeletalMesh: Chunk 1: 1698 rigid vertices, 0 soft vertices, 6 active bones
+[2016.05.01-15.07.03:336][921]LogSkeletalMesh: Chunk 2: 1113 rigid vertices, 0 soft vertices, 1 active bones
+[2016.05.01-15.07.03:337][921]LogSkeletalMesh: Chunk 3: 8028 rigid vertices, 1147 soft vertices, 12 active bones
+[2016.05.01-15.07.03:337][921]LogSkeletalMesh: Chunk 4: 4254 rigid vertices, 0 soft vertices, 7 active bones
+[2016.05.01-15.07.03:338][921]LogSkeletalMesh: Chunk 5: 4172 rigid vertices, 0 soft vertices, 9 active bones
+[2016.05.01-15.07.03:338][921]LogSkeletalMesh: Chunk 6: 458 rigid vertices, 482 soft vertices, 7 active bones
+[2016.05.01-15.07.03:338][921]LogSkeletalMesh: Chunk 7: 1863 rigid vertices, 90 soft vertices, 2 active bones
+[2016.05.01-15.07.03:338][921]LogSkeletalMesh: Chunk 8: 6291 rigid vertices, 0 soft vertices, 34 active bones
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2384 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1453 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 758 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 9680 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 3442 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 3700 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 910 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 2274 triangles
+[2016.05.01-15.07.03:393][921]LogSkeletalMesh: Section 8: Material=8, Chunk=8, 5232 triangles
+[2016.05.01-15.07.03:514][921]LogEditorFactories: -- imported successfully
+[2016.05.01-15.07.11:166][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-15.07.11:251][932]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TutorialCourse' took 0.085
+[2016.05.01-15.07.11:257][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton] ([1] browsable assets)...
+[2016.05.01-15.07.11:257][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton]
+[2016.05.01-15.07.11:298][932]LogSavePackage: Save=23.99ms
+[2016.05.01-15.07.11:298][932]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_Skeleton_Auto11830E1CD49C6248304F65FBDF52A4CFD.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton_Auto1.uasset'
+[2016.05.01-15.07.11:300][932]LogSavePackage: Total save time: 39.98ms
+[2016.05.01-15.07.11:300][932]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton_Auto1.uasset
+[2016.05.01-15.07.11:305][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380] ([1] browsable assets)...
+[2016.05.01-15.07.11:349][932]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380.mechinsurgentSRIGEXPORT_380]
+[2016.05.01-15.07.11:349][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380]
+[2016.05.01-15.07.12:022][932]LogSavePackage: Save=252.86ms
+[2016.05.01-15.07.12:023][932]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_Auto12C4CFDB54F670DCA7890CA8D937207C5.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Auto1.uasset'
+[2016.05.01-15.07.12:025][932]LogSavePackage: Total save time: 672.53ms
+[2016.05.01-15.07.12:025][932]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Auto1.uasset
+[2016.05.01-15.07.12:032][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin] ([1] browsable assets)...
+[2016.05.01-15.07.12:063][932]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin]
+[2016.05.01-15.07.12:063][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin]
+[2016.05.01-15.07.12:426][932]LogSavePackage: Save=216.47ms
+[2016.05.01-15.07.12:435][932]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/SK_Mannequin_Auto14CE1809E404F4620036EAEB7287477AE.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Auto1.uasset'
+[2016.05.01-15.07.12:438][932]LogSavePackage: Total save time: 370.78ms
+[2016.05.01-15.07.12:438][932]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Auto1.uasset
+[2016.05.01-15.07.12:444][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2016.05.01-15.07.12:444][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2016.05.01-15.07.12:468][932]LogSavePackage: Save=7.05ms
+[2016.05.01-15.07.12:468][932]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/UE4_Mannequin_Skeleton_Auto1887EC5B14F08D9CB25F78F9F6DBC5C53.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2016.05.01-15.07.12:469][932]LogSavePackage: Total save time: 22.36ms
+[2016.05.01-15.07.12:469][932]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2016.05.01-15.07.12:475][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonIdle] ([1] browsable assets)...
+[2016.05.01-15.07.12:500][932]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle]
+[2016.05.01-15.07.12:500][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonIdle]
+[2016.05.01-15.07.12:500][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-15.07.12:526][932]LogSavePackage: Save=21.95ms
+[2016.05.01-15.07.12:526][932]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonIdle_Auto1D0C85FB6463535FA3290A1B9398C1208.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto1.uasset'
+[2016.05.01-15.07.12:528][932]LogSavePackage: Total save time: 24.30ms
+[2016.05.01-15.07.12:528][932]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto1.uasset
+[2016.05.01-15.07.12:528][932]LogFileHelpers: Auto-saving content packages took 1.276
+[2016.05.01-15.07.29:519][483]LogSavePackage: Save=8.13ms
+[2016.05.01-15.07.29:519][483]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_SkeletonFA00C8EE47C10A0039E2CDBDD7CA1445.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset'
+[2016.05.01-15.07.29:525][483]LogSavePackage: Total save time: 23.42ms
+[2016.05.01-15.07.29:525][483]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset
+[2016.05.01-15.07.38:647][915]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2016.05.01-15.07.38:789][915]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.07.50:746][574]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.08.47:213][127]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.09.21:295][579]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.09.21:849][597]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.09.54:527][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-15.10.33:435][924]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_27) - call TermArticulated first.
+[2016.05.01-15.10.33:581][924]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.10.54:801][ 77]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_32) - call TermArticulated first.
+[2016.05.01-15.10.54:947][ 77]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.12.05:978][536]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.14:213][128]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.17:936][332]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.23:319][657]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.12.26:185][799]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.26:468][810]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.12.26:692][816]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.26:931][826]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.27:167][837]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.27:411][848]LogEditorTransaction: Undo Translate Bone
+[2016.05.01-15.12.27:647][859]LogEditorTransaction: Undo Change Bone Mapping
+[2016.05.01-15.12.27:995][874]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.12.52:472][485]Cmd: TRANSACTION UNDO
+[2016.05.01-15.12.52:472][485]LogEditorTransaction: Undo Change Bone Mapping
+[2016.05.01-15.13.26:933][977]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_41) - call TermArticulated first.
+[2016.05.01-15.14.29:884][696]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.14.35:250][ 63]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.14.48:800][901]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.15.03:453][745]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_48) - call TermArticulated first.
+[2016.05.01-15.16.07:299][228]LogRenderer: Reallocating scene render targets to support 1204x916 (Frame:122224).
+[2016.05.01-15.16.07:299][228]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.16.33:380][424]LogSavePackage: Save=25.85ms
+[2016.05.01-15.16.33:380][424]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_SkeletonF1EDBF4744BC85A9FA2AAE85308FE07E.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset'
+[2016.05.01-15.16.33:386][424]LogSavePackage: Total save time: 45.09ms
+[2016.05.01-15.16.33:386][424]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset
+[2016.05.01-15.16.46:231][966]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.18.15:435][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-15.18.15:435][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.01-15.18.15:524][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TutorialCourse' took 0.089
+[2016.05.01-15.18.15:530][710]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton] ([1] browsable assets)...
+[2016.05.01-15.18.15:530][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton]
+[2016.05.01-15.18.15:569][710]LogSavePackage: Save=8.36ms
+[2016.05.01-15.18.15:569][710]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_Skeleton_Auto2929821344AD605EC3F4A82B07A62383C.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton_Auto2.uasset'
+[2016.05.01-15.18.15:571][710]LogSavePackage: Total save time: 37.83ms
+[2016.05.01-15.18.15:571][710]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton_Auto2.uasset
+[2016.05.01-15.18.15:576][710]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2016.05.01-15.18.15:576][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2016.05.01-15.18.15:595][710]LogSavePackage: Save=5.48ms
+[2016.05.01-15.18.15:595][710]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/UE4_Mannequin_Skeleton_Auto296DC9C324367085E9EF67EA0E45294BB.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto2.uasset'
+[2016.05.01-15.18.15:597][710]LogSavePackage: Total save time: 18.54ms
+[2016.05.01-15.18.15:597][710]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto2.uasset
+[2016.05.01-15.18.15:602][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonIdle] ([1] browsable assets)...
+[2016.05.01-15.18.15:675][710]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle]
+[2016.05.01-15.18.15:675][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonIdle]
+[2016.05.01-15.18.15:675][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-15.18.15:704][710]LogSavePackage: Save=25.10ms
+[2016.05.01-15.18.15:704][710]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonIdle_Auto277E813D142C3823601CD80849247E9F5.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto2.uasset'
+[2016.05.01-15.18.15:706][710]LogSavePackage: Total save time: 27.36ms
+[2016.05.01-15.18.15:706][710]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto2.uasset
+[2016.05.01-15.18.15:711][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonIdle2] ([1] browsable assets)...
+[2016.05.01-15.18.15:793][710]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonIdle2.ThirdPersonIdle2]
+[2016.05.01-15.18.15:793][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonIdle2]
+[2016.05.01-15.18.15:794][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle2" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-15.18.15:824][710]LogSavePackage: Save=25.28ms
+[2016.05.01-15.18.15:824][710]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonIdle2_Auto280CA48FC456450FD631D249BA1DBFF0B.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle2_Auto2.uasset'
+[2016.05.01-15.18.15:826][710]LogSavePackage: Total save time: 28.09ms
+[2016.05.01-15.18.15:826][710]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/Autosaves/Game/ThirdPersonIdle2_Auto2.uasset
+[2016.05.01-15.18.15:826][710]LogFileHelpers: Auto-saving content packages took 0.301
+[2016.05.01-15.30.43:528][954]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-15.30.44:090][988]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-15.30.49:397][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.30.49:397][376]PIE: New page: SIE session: TutorialCourse (May 1, 2016, 6:30:49 AM)
+[2016.05.01-15.30.49:397][376]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.30.49:410][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012403s)
+[2016.05.01-15.30.49:411][376]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.30.49:411][376]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2016.05.01-15.30.49:411][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.013847s)
+[2016.05.01-15.30.49:455][376]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.Linear_Stair_Brush2_StaticMesh"
+[2016.05.01-15.30.49:457][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.30.49:468][376]LogInit: FAudioDevice initialized.
+[2016.05.01-15.30.49:502][376]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.30.49:520][376]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.30.49
+[2016.05.01-15.30.49:523][376]LogWorld: Bringing up level for play took: 0.018253
+[2016.05.01-15.30.49:525][376]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.30.49:526][376]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.986
+[2016.05.01-15.30.49:549][376]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.Linear_Stair_Brush2_StaticMesh"
+[2016.05.01-15.30.56:519][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.30.56:519][776]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:30:56 AM)
+[2016.05.01-15.30.56:520][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.30.56:531][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010964s)
+[2016.05.01-15.30.56:531][776]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.30.56:531][776]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2016.05.01-15.30.56:532][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.012080s)
+[2016.05.01-15.30.56:568][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.30.56:576][776]LogInit: FAudioDevice initialized.
+[2016.05.01-15.30.56:630][776]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.30.56:642][776]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.30.56
+[2016.05.01-15.30.56:645][776]LogWorld: Bringing up level for play took: 0.012100
+[2016.05.01-15.30.56:646][776]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.30.56:661][776]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.123
+[2016.05.01-15.30.56:719][777]LogRenderer: Reallocating scene render targets to support 1280x916 (Frame:132439).
+[2016.05.01-15.31.14:165][983]LogBlueprintUserMessages: [MechChara_C_62] leftOn
+[2016.05.01-15.31.14:181][984]LogBlueprintUserMessages: [MechChara_C_62] leftOn
+[2016.05.01-15.31.14:296][991]LogBlueprintUserMessages: [MechChara_C_62] RightOn
+[2016.05.01-15.31.14:327][993]LogBlueprintUserMessages: [MechChara_C_62] RightOn
+[2016.05.01-15.31.14:554][  7]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_62
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-15.31.14:554][  7]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-15.31.14:554][  7]LogBlueprintUserMessages: [MechChara_C_62] Hello
+[2016.05.01-15.31.15:345][ 55]LogBlueprintUserMessages: [MechChara_C_62] RightOn
+[2016.05.01-15.31.15:345][ 55]LogBlueprintUserMessages: [MechChara_C_62] leftOn
+[2016.05.01-15.31.15:552][ 69]LogBlueprintUserMessages: [MechChara_C_62] 1
+[2016.05.01-15.31.15:566][ 70]LogBlueprintUserMessages: [MechChara_C_62] LeftOff
+[2016.05.01-15.31.15:580][ 71]LogBlueprintUserMessages: [MechChara_C_62] RightOff
+[2016.05.01-15.31.15:596][ 72]LogBlueprintUserMessages: [MechChara_C_62] LeftOff
+[2016.05.01-15.31.15:610][ 73]LogBlueprintUserMessages: [MechChara_C_62] RightOff
+[2016.05.01-15.31.15:610][ 73]LogBlueprintUserMessages: [MechChara_C_62] LeftOff
+[2016.05.01-15.31.15:624][ 74]LogBlueprintUserMessages: [MechChara_C_62] RightOff
+[2016.05.01-15.31.17:547][211]LogBlueprintUserMessages: [MechChara_C_62] leftOn
+[2016.05.01-15.31.17:719][223]LogBlueprintUserMessages: [MechChara_C_62] RightOn
+[2016.05.01-15.31.17:905][236]LogBlueprintUserMessages: [MechChara_C_62] Hello
+[2016.05.01-15.31.18:179][254]LogBlueprintUserMessages: [MechChara_C_62] RightOff
+[2016.05.01-15.31.18:282][261]LogBlueprintUserMessages: [MechChara_C_62] RightOn
+[2016.05.01-15.31.18:903][304]LogBlueprintUserMessages: [MechChara_C_62] 1
+[2016.05.01-15.31.18:978][309]LogBlueprintUserMessages: [MechChara_C_62] RightOff
+[2016.05.01-15.31.18:978][309]LogBlueprintUserMessages: [MechChara_C_62] LeftOff
+[2016.05.01-15.31.20:944][445]LogBlueprintUserMessages: [MechChara_C_62] leftOn
+[2016.05.01-15.31.21:259][467]LogBlueprintUserMessages: [MechChara_C_62] Hello
+[2016.05.01-15.31.22:248][534]LogBlueprintUserMessages: [MechChara_C_62] 1
+[2016.05.01-15.31.22:800][573]LogBlueprintUserMessages: [MechChara_C_62] LeftOff
+[2016.05.01-15.32.08:528][458]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.32.20:651][515]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.32.21:307][541]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.32.21:696][562]LogEditorTransaction: Undo Rotate Bone
+[2016.05.01-15.32.59:628][747]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_54) - call TermArticulated first.
+[2016.05.01-15.33.30:020][ 54]BlueprintLog: New page: Compile MechSurgAnim
+[2016.05.01-15.33.30:470][ 54]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-15.33.31:332][ 54]BlueprintEditorCompileResults: Info [2614.79] Compile of MechSurgAnim successful! [in 1,311 ms]
+[2016.05.01-15.33.54:661][965]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.01-15.34.09:244][654]BlueprintLog: New page: Compile MechSurgAnim
+[2016.05.01-15.34.09:959][654]BlueprintEditorCompileResults: Info [2653.42] Compile of MechSurgAnim successful! [in 714 ms]
+[2016.05.01-15.34.12:691][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.34.12:691][802]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:34:12 AM)
+[2016.05.01-15.34.12:691][802]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.34.12:702][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011026s)
+[2016.05.01-15.34.12:703][802]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.34.12:703][802]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2016.05.01-15.34.12:704][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.012222s)
+[2016.05.01-15.34.12:766][802]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.34.12:775][802]LogInit: FAudioDevice initialized.
+[2016.05.01-15.34.12:826][802]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.34.12:839][802]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.34.12
+[2016.05.01-15.34.12:841][802]LogWorld: Bringing up level for play took: 0.012076
+[2016.05.01-15.34.12:842][802]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.34.12:855][802]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.314
+[2016.05.01-15.34.24:426][497]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.24:445][498]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.24:445][498]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.24:445][498]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.24:565][504]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_63
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-15.34.24:566][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-15.34.24:566][504]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.24:977][524]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.25:014][526]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.25:255][539]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.25:292][541]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.25:552][555]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.26:281][592]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.26:299][593]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.26:425][600]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.26:443][601]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.27:987][686]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.27:987][686]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.28:007][687]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.28:007][687]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.28:127][693]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.28:907][732]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.28:927][733]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.29:115][743]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.29:168][746]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.29:168][746]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.29:185][747]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.29:203][748]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.29:203][748]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.29:203][748]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.31:519][887]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.31:519][887]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.32:215][930]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.32:231][931]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.34:372][ 61]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.34:522][ 70]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.35:519][130]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.36:000][159]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.38:538][312]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.38:890][333]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.39:749][385]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.39:881][393]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.40:346][421]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.40:523][432]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.41:522][492]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.41:843][511]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.44:074][646]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.44:139][650]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.44:825][690]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.45:135][708]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.45:447][726]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.34.47:510][850]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.34.51:291][ 78]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.51:454][ 88]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.52:444][148]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.52:823][171]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.56:345][384]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.56:539][396]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.34.57:538][456]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.34.57:570][458]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.34.59:641][583]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.34.59:858][596]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.05:834][959]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.07:224][ 44]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.08:541][123]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.08:623][128]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.08:757][136]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.09:547][183]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.10:106][217]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.10:494][240]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.12:260][345]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.12:726][370]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.13:602][423]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.13:671][427]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.16:088][571]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.16:266][582]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.17:254][642]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.17:735][671]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.20:125][815]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.20:225][821]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.21:222][881]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.21:495][897]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.22:027][929]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.22:092][933]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.22:157][937]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.22:191][939]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.23:155][997]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.23:744][ 32]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.32:540][567]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.32:772][581]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.33:451][622]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.33:761][640]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.34:817][704]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.35:047][718]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.35:582][750]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.35:996][775]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.36:031][777]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.36:133][783]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.37:269][852]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.42:057][138]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.42:434][161]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.43:420][220]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.43:932][251]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.46:600][412]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.35.47:221][450]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.35.51:961][737]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.52:403][764]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.35.53:398][824]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.35.53:875][853]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.35.59:808][210]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.35.59:909][216]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.00:907][276]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.02:230][355]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.02:394][365]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.02:492][371]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.07:785][689]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.07:866][694]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.08:049][705]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.08:642][741]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.08:840][753]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.08:857][754]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.09:269][779]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.09:308][781]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.14:571][ 94]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.14:667][100]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.14:830][110]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.15:504][150]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.15:669][160]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.15:815][169]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.15:866][172]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.16:519][211]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.17:340][260]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.17:840][290]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.17:970][298]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.18:303][318]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.18:692][342]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.19:564][395]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.20:557][455]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.22:138][550]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.27:808][890]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.27:921][897]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.28:909][956]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.29:807][ 10]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.32:112][150]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.32:836][194]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.33:812][253]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.33:830][254]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.34:341][285]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.34:521][296]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.35:508][355]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.35:908][379]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.38:323][524]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.38:455][532]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.38:622][542]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.38:693][546]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.39:684][606]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.40:160][635]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.41:070][690]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.41:200][698]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.41:872][739]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.42:184][758]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.46:225][  3]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.46:407][ 14]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.46:620][ 27]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.46:686][ 31]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.36.47:606][ 87]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.47:638][ 89]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.50:507][261]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.50:573][265]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.51:560][325]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.51:951][349]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.54:877][527]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.54:910][529]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.36.55:908][590]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.36.56:224][609]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.56:752][640]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.36.56:768][641]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.36.57:130][663]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.36.58:089][720]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.00:758][881]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.01:274][913]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.01:531][929]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.01:564][931]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.02:304][976]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.02:528][989]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.02:907][ 12]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.02:923][ 13]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.02:939][ 14]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.03:128][ 25]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.03:935][ 74]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.04:345][ 99]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.06:816][250]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.07:075][266]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.08:067][326]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.08:314][341]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.11:253][520]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.11:253][520]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.11:581][540]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.12:573][600]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.12:655][605]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.12:757][608]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.20:571][ 86]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.20:782][ 99]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.21:767][158]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.21:929][168]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.26:219][426]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.26:273][429]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.27:260][488]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.27:581][507]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.28:115][539]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.28:216][545]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.29:212][604]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.29:808][640]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.32:338][793]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.32:889][826]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.33:879][886]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.34:025][895]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.34:640][932]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.34:727][937]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.34:760][939]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.34:808][942]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.35:750][999]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.36:547][ 47]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.39:638][237]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.39:703][241]LogBlueprintUserMessages: [MechChara_C_63] RightOn
+[2016.05.01-15.37.39:752][244]LogBlueprintUserMessages: [MechChara_C_63] RightOff
+[2016.05.01-15.37.39:833][249]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.40:715][301]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.40:834][308]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.43:286][457]LogBlueprintUserMessages: [MechChara_C_63] leftOn
+[2016.05.01-15.37.43:532][472]LogBlueprintUserMessages: [MechChara_C_63] Hello
+[2016.05.01-15.37.44:520][531]LogBlueprintUserMessages: [MechChara_C_63] 1
+[2016.05.01-15.37.45:024][561]LogBlueprintUserMessages: [MechChara_C_63] LeftOff
+[2016.05.01-15.37.59:303][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube5)
+[2016.05.01-15.38.02:195][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-15.38.03:138][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube5)
+[2016.05.01-15.38.09:625][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube4)
+[2016.05.01-15.38.10:392][140]Cmd: DELETE
+[2016.05.01-15.38.10:392][140]Cmd: ACTOR DELETE
+[2016.05.01-15.38.10:393][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.01-15.38.10:443][140]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2016.05.01-15.38.11:105][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube5)
+[2016.05.01-15.38.16:203][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.38.16:203][574]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:38:16 AM)
+[2016.05.01-15.38.16:203][574]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.38.16:220][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017039s)
+[2016.05.01-15.38.16:221][574]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.38.16:222][574]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2016.05.01-15.38.16:222][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.018652s)
+[2016.05.01-15.38.16:276][574]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.38.16:288][574]LogInit: FAudioDevice initialized.
+[2016.05.01-15.38.16:341][574]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.38.16:353][574]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.38.16
+[2016.05.01-15.38.16:356][574]LogWorld: Bringing up level for play took: 0.012508
+[2016.05.01-15.38.16:357][574]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.38.16:372][574]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse -0.171
+[2016.05.01-15.38.24:912][170]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.24:912][170]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.24:912][170]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.24:912][170]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.26:296][260]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.26:297][260]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.26:473][272]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_64
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-15.38.26:473][272]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-15.38.26:473][272]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.27:080][311]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.27:080][311]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.27:459][335]LogBlueprintUserMessages: [MechChara_C_64] 1
+[2016.05.01-15.38.27:948][367]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.27:968][368]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.28:099][377]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.28:114][378]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.29:386][463]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.29:402][464]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.29:402][464]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.29:417][465]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.29:678][481]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.30:384][524]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.30:399][525]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.30:620][540]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.30:635][541]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.30:649][542]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.30:663][543]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.30:663][543]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.30:663][543]LogBlueprintUserMessages: [MechChara_C_64] 1
+[2016.05.01-15.38.30:677][544]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.32:798][695]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.32:798][695]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.32:839][698]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.33:662][756]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.33:676][757]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.33:828][768]LogBlueprintUserMessages: [MechChara_C_64] 1
+[2016.05.01-15.38.35:818][905]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.35:933][913]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.36:923][981]LogBlueprintUserMessages: [MechChara_C_64] 1
+[2016.05.01-15.38.37:376][ 13]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.40:165][210]LogBlueprintUserMessages: [MechChara_C_64] leftOn
+[2016.05.01-15.38.40:461][231]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.41:459][300]LogBlueprintUserMessages: [MechChara_C_64] 1
+[2016.05.01-15.38.41:670][315]LogBlueprintUserMessages: [MechChara_C_64] LeftOff
+[2016.05.01-15.38.42:353][363]LogBlueprintUserMessages: [MechChara_C_64] RightOn
+[2016.05.01-15.38.42:804][394]LogBlueprintUserMessages: [MechChara_C_64] Hello
+[2016.05.01-15.38.43:525][444]LogBlueprintUserMessages: [MechChara_C_64] RightOff
+[2016.05.01-15.38.48:181][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube6)
+[2016.05.01-15.38.49:114][650]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (1M_Cube7)
+[2016.05.01-15.38.52:595][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.38.52:595][800]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:38:52 AM)
+[2016.05.01-15.38.52:595][800]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.38.52:607][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011246s)
+[2016.05.01-15.38.52:607][800]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.38.52:607][800]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2016.05.01-15.38.52:608][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.012486s)
+[2016.05.01-15.38.52:653][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.38.52:663][800]LogInit: FAudioDevice initialized.
+[2016.05.01-15.38.52:717][800]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.38.52:730][800]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.38.52
+[2016.05.01-15.38.52:732][800]LogWorld: Bringing up level for play took: 0.012754
+[2016.05.01-15.38.52:733][800]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.38.52:748][800]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.204
+[2016.05.01-15.39.03:112][495]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.03:125][496]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.03:126][496]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.03:126][496]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.03:183][500]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_65
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-15.39.03:184][500]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-15.39.03:184][500]LogBlueprintUserMessages: [MechChara_C_65] Hello
+[2016.05.01-15.39.03:907][544]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.03:907][544]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.04:133][559]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.04:148][560]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.04:162][561]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.04:177][562]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.04:177][562]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.04:177][562]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.04:178][562]LogBlueprintUserMessages: [MechChara_C_65] 1
+[2016.05.01-15.39.06:453][722]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.06:453][722]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.07:489][795]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.07:503][796]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.09:694][948]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.09:906][963]LogBlueprintUserMessages: [MechChara_C_65] Hello
+[2016.05.01-15.39.10:867][ 30]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.10:896][ 32]LogBlueprintUserMessages: [MechChara_C_65] 1
+[2016.05.01-15.39.13:636][222]LogBlueprintUserMessages: [MechChara_C_65] leftOn
+[2016.05.01-15.39.13:731][228]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.13:832][235]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.14:825][304]LogBlueprintUserMessages: [MechChara_C_65] LeftOff
+[2016.05.01-15.39.15:372][341]LogBlueprintUserMessages: [MechChara_C_65] RightOn
+[2016.05.01-15.39.15:605][357]LogBlueprintUserMessages: [MechChara_C_65] Hello
+[2016.05.01-15.39.16:606][426]LogBlueprintUserMessages: [MechChara_C_65] 1
+[2016.05.01-15.39.17:118][461]LogBlueprintUserMessages: [MechChara_C_65] RightOff
+[2016.05.01-15.39.19:559][569]LogSavePackage: Save=181.67ms
+[2016.05.01-15.39.19:559][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/TutorialCourseFD8964E448887F2646433BA385B7006C.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap'
+[2016.05.01-15.39.19:566][569]LogSavePackage: Total save time: 250.39ms
+[2016.05.01-15.39.19:566][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap
+[2016.05.01-15.39.19:622][569]LogFileHelpers: Saving map 'TutorialCourse' took 0.454
+[2016.05.01-15.39.21:051][569]LogSavePackage: Save=1218.30ms
+[2016.05.01-15.39.21:051][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechSurgAnim2EB73E1342E91E51B697B1B9E55EA1B5.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechSurgAnim.uasset'
+[2016.05.01-15.39.21:059][569]LogSavePackage: Total save time: 1394.29ms
+[2016.05.01-15.39.21:059][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechSurgAnim.uasset
+[2016.05.01-15.39.21:097][569]LogSavePackage: Save=7.07ms
+[2016.05.01-15.39.21:097][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380_SkeletonAE7E80A24BD5E03E8DF8EABED075B72A.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset'
+[2016.05.01-15.39.21:102][569]LogSavePackage: Total save time: 25.80ms
+[2016.05.01-15.39.21:102][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380_Skeleton.uasset
+[2016.05.01-15.39.21:767][569]LogSavePackage: Save=228.83ms
+[2016.05.01-15.39.21:768][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/mechinsurgentSRIGEXPORT_380A3CA1C5140D20D245251CEA74835A2F7.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380.uasset'
+[2016.05.01-15.39.21:827][569]LogSavePackage: Total save time: 711.12ms
+[2016.05.01-15.39.21:828][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/mechinsurgentSRIGEXPORT_380.uasset
+[2016.05.01-15.39.22:204][569]LogSavePackage: Save=212.16ms
+[2016.05.01-15.39.22:204][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/SK_Mannequin8E6091B54DC197F92F050CB437E59B29.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2016.05.01-15.39.22:211][569]LogSavePackage: Total save time: 367.27ms
+[2016.05.01-15.39.22:211][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2016.05.01-15.39.22:251][569]LogSavePackage: Save=7.34ms
+[2016.05.01-15.39.22:251][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/UE4_Mannequin_Skeleton222CDC624DBBDE2EE3158A8275EF5106.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.05.01-15.39.22:257][569]LogSavePackage: Total save time: 27.89ms
+[2016.05.01-15.39.22:257][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.05.01-15.39.22:327][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle.uasset" SILENT=true
+[2016.05.01-15.39.22:355][569]LogSavePackage: Save=24.45ms
+[2016.05.01-15.39.22:355][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonIdleD0391B4B405F775B08719BB3E9165926.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle.uasset'
+[2016.05.01-15.39.22:360][569]LogSavePackage: Total save time: 29.42ms
+[2016.05.01-15.39.22:360][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle.uasset
+[2016.05.01-15.39.22:416][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle2" FILE="../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle2.uasset" SILENT=true
+[2016.05.01-15.39.22:444][569]LogSavePackage: Save=23.94ms
+[2016.05.01-15.39.22:444][569]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/ThirdPersonIdle241D0D0B14C94A06B0F2E4692D0B42714.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle2.uasset'
+[2016.05.01-15.39.22:449][569]LogSavePackage: Total save time: 29.13ms
+[2016.05.01-15.39.22:449][569]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonIdle2.uasset
+[2016.05.01-15.39.33:079][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.39.33:079][199]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:39:33 AM)
+[2016.05.01-15.39.33:079][199]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.39.33:090][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010928s)
+[2016.05.01-15.39.33:091][199]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.39.33:091][199]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2016.05.01-15.39.33:091][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.012005s)
+[2016.05.01-15.39.33:165][199]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.39.33:175][199]LogInit: FAudioDevice initialized.
+[2016.05.01-15.39.33:230][199]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.39.33:242][199]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.39.33
+[2016.05.01-15.39.33:245][199]LogWorld: Bringing up level for play took: 0.012565
+[2016.05.01-15.39.33:246][199]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.39.33:262][199]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.717
+[2016.05.01-15.39.43:134][884]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.39.43:134][884]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.39.43:134][884]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.43:134][884]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.43:525][909]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.39.43:541][910]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.43:828][929]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.43:842][930]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.39.43:870][932]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.43:885][933]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.39.43:901][934]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.43:915][935]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.39.45:548][ 49]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.45:576][ 51]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.39.45:703][ 60]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.39.46:692][127]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.39.46:722][129]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.39.46:722][129]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.48:881][276]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.49:202][299]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.39.50:196][367]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.39.50:564][393]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.53:191][575]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.53:399][589]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.39.54:386][657]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.39.54:773][684]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.39.55:340][723]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.39.55:834][757]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.39.56:763][821]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.39.56:822][825]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.39.59:339][  0]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.39.59:546][ 15]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.00:451][ 78]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.00:541][ 84]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.00:996][115]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.01:267][134]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.02:260][204]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.02:706][234]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.05:217][411]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.05:587][437]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.06:584][505]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.06:688][512]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.09:043][672]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.09:381][696]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.10:168][750]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.10:370][764]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.12:987][945]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.13:162][957]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.13:380][972]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.13:436][976]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.14:436][ 44]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.14:713][ 63]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.15:249][ 98]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.15:381][107]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.16:380][176]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.16:769][203]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.19:638][398]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.19:826][411]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.20:681][471]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.20:820][481]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.21:306][515]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.21:478][527]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.22:473][596]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.22:975][631]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.25:702][823]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.26:098][851]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.27:032][916]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.27:090][920]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.29:872][110]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.29:945][115]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.29:991][118]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.30:062][123]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.30:982][186]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.31:068][192]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.33:631][368]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.34:266][413]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.35:163][476]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.35:266][483]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.35:717][514]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.35:787][519]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.35:914][528]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.35:929][529]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.36:911][598]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.37:433][634]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.39:915][807]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.40:142][823]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.41:138][893]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.41:270][902]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.41:742][936]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.41:833][942]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.41:932][949]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.41:961][951]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.42:927][ 17]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.43:338][ 46]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.45:790][215]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.45:887][222]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.47:278][319]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.47:278][319]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.47:534][337]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.47:589][341]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.47:832][358]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.48:588][409]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.52:159][658]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.52:216][662]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.52:357][672]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.52:801][702]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.53:058][720]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.40.53:349][739]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.40.53:378][741]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.40.53:674][761]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.40.57:135][996]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.40.57:367][ 12]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.40.58:360][ 82]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.41.00:620][236]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.41.03:706][447]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.41.03:901][460]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.41.04:784][522]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.41.04:895][530]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.41.07:405][706]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.41.07:835][736]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.41.08:829][805]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.41.08:886][809]LogBlueprintUserMessages: [MechChara_C_66] LeftOff
+[2016.05.01-15.41.09:461][849]LogBlueprintUserMessages: [MechChara_C_66] RightOn
+[2016.05.01-15.41.09:647][862]LogBlueprintUserMessages: [MechChara_C_66] Hello
+[2016.05.01-15.41.10:642][932]LogBlueprintUserMessages: [MechChara_C_66] 1
+[2016.05.01-15.41.11:056][960]LogBlueprintUserMessages: [MechChara_C_66] RightOff
+[2016.05.01-15.41.13:968][162]LogBlueprintUserMessages: [MechChara_C_66] leftOn
+[2016.05.01-15.41.23:721][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-15.41.24:308][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush2_StaticMesh)
+[2016.05.01-15.41.30:000][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube7)
+[2016.05.01-15.41.33:377][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-15.41.33:377][680]PIE: New page: PIE session: TutorialCourse (May 1, 2016, 6:41:33 AM)
+[2016.05.01-15.41.33:377][680]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse
+[2016.05.01-15.41.33:389][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011122s)
+[2016.05.01-15.41.33:389][680]LogAIModule: Creating AISystem for world TutorialCourse
+[2016.05.01-15.41.33:389][680]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2016.05.01-15.41.33:390][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutorialCourse.TutorialCourse to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse (0.012295s)
+[2016.05.01-15.41.33:390][680]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-15.41.33:430][680]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.01-15.41.33:439][680]LogInit: FAudioDevice initialized.
+[2016.05.01-15.41.33:493][680]LogWorld: Game class is 'MechGame_C'
+[2016.05.01-15.41.33:505][680]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse up for play (max tick rate 0) at 2016.05.01-11.41.33
+[2016.05.01-15.41.33:507][680]LogWorld: Bringing up level for play took: 0.012548
+[2016.05.01-15.41.33:508][680]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.01-15.41.33:523][680]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse 0.977
+[2016.05.01-15.41.44:247][423]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.44:262][424]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.44:276][425]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.44:290][426]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.44:387][432]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutorialCourse.TutorialCourse:PersistentLevel.MechChara_C_67
+	Function /Game/ThirdPerson/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:21DB
+[2016.05.01-15.41.44:387][432]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.01-15.41.44:387][432]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.41.45:111][476]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.45:111][476]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.45:351][492]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.45:351][492]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.45:379][494]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.45:379][494]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.45:379][494]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.45:380][494]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.41.45:394][495]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.47:654][654]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.47:654][654]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.49:049][751]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.49:049][751]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.51:461][919]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.51:659][933]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.41.52:251][973]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.52:653][  0]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.41.54:617][137]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.54:756][147]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.41.55:477][197]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.55:746][216]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.41.56:011][235]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.41.56:109][242]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.56:179][247]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.41.56:235][251]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.41.56:987][303]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.41.57:235][320]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.41.57:513][339]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.41.57:643][348]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.41.58:635][416]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.41.58:901][434]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.42.01:005][580]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.01:241][597]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.02:107][657]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.02:236][666]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.02:584][690]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.42.02:628][693]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.02:672][696]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.03:689][766]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.42.04:268][806]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.04:339][811]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.05:339][880]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.05:521][893]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.07:095][  2]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.07:205][ 10]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.08:202][ 79]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.08:710][114]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.12:171][351]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.12:272][358]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.42.12:330][362]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.42.12:399][367]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.13:314][430]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.13:388][435]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.15:422][576]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.42.15:507][582]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.15:563][586]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.15:605][589]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.16:049][620]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.42.16:595][658]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.16:652][662]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.16:870][677]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.17:707][735]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.17:867][746]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.18:207][770]LogBlueprintUserMessages: [MechChara_C_67] RightOn
+[2016.05.01-15.42.18:364][781]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.19:354][848]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.19:383][850]LogBlueprintUserMessages: [MechChara_C_67] RightOff
+[2016.05.01-15.42.25:213][248]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:278][252]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:335][256]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:392][260]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:452][264]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:512][268]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:572][272]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:631][276]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:688][280]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:745][284]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:804][288]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:870][292]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:930][296]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.25:989][300]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:051][304]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:110][308]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:171][312]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:231][316]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:288][320]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:346][324]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:404][328]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.26:458][331]LogBlueprintUserMessages: [MechChara_C_67] out of ammo
+[2016.05.01-15.42.42:032][418]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.42:239][432]LogBlueprintUserMessages: [MechChara_C_67] Hello
+[2016.05.01-15.42.43:237][502]LogBlueprintUserMessages: [MechChara_C_67] 1
+[2016.05.01-15.42.43:579][526]LogBlueprintUserMessages: [MechChara_C_67] LeftOff
+[2016.05.01-15.42.51:093][ 52]LogBlueprintUserMessages: [MechChara_C_67] leftOn
+[2016.05.01-15.42.59:909][395]LogSavePackage: Save=1288.16ms
+[2016.05.01-15.42.59:909][395]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/MechSurgAnimC80177D6476CB4FAF50970BCE77371FB.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechSurgAnim.uasset'
+[2016.05.01-15.42.59:913][395]LogSavePackage: Total save time: 1302.50ms
+[2016.05.01-15.42.59:913][395]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPerson/MechaInsurgent/MechSurgAnim.uasset
+[2016.05.01-15.43.04:402][566]LogSavePackage: Save=175.45ms
+[2016.05.01-15.43.04:402][566]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealProject/MechProject/Saved/TutorialCourseCEC4848A4FAC88773DE41284438D74E0.tmp' to '../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap'
+[2016.05.01-15.43.04:408][566]LogSavePackage: Total save time: 191.38ms
+[2016.05.01-15.43.04:408][566]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/UnrealProject/MechProject/Content/ThirdPersonBP/Maps/TutorialCourse.umap
+[2016.05.01-15.43.04:462][566]LogFileHelpers: Saving map 'TutorialCourse' took 0.391
+[2016.05.01-15.43.05:087][567]Cmd: QUIT_EDITOR
+[2016.05.01-15.43.05:291][567]LogExit: Preparing to exit.
+[2016.05.01-15.43.06:232][567]LogExit: Editor shut down
+[2016.05.01-15.43.06:232][567]LogExit: Transaction tracking system shut down
+[2016.05.01-15.43.06:572][567]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.01-15.43.06:572][567]LogExit: Object subsystem successfully closed.
+[2016.05.01-15.43.06:588][567]LogD3D11RHI: Shutdown
+[2016.05.01-15.43.06:588][567]LogD3D11RHI: CleanupD3DDevice
+[2016.05.01-15.43.06:759][567]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.01-15.43.06:785][567]LogDerivedDataCache: Shutdown
+[2016.05.01-15.43.06:785][567]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.05.01-15.43.06:786][567]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.05.01-15.43.06:786][567]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.01-15.43.06:786][567]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.01-15.43.06:786][567]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.01-15.43.06:794][567]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.01-15.43.06:794][567]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.01-15.43.06:794][567]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.01-15.43.06:796][567]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.01-15.43.06:797][567]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.01-15.43.07:612][567]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.01-15.43.07:613][567]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.01-15.43.07:614][567]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.01-15.43.07:614][567]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.01-15.43.07:614][567]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.01-15.43.07:644][567]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.01-15.43.07:645][567]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.01-15.43.07:832][567]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.01-15.43.07:833][567]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.01-15.43.07:835][567]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.01-15.43.07:835][567]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.01-15.43.07:836][567]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.01-15.43.07:837][567]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.01-15.43.08:704][567]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.01-15.43.08:705][567]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.01-15.43.08:705][567]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.01-15.43.08:805][567]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.01-15.43.08:805][567]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.01-15.43.08:805][567]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.01-15.43.08:805][567]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.01-15.43.08:805][567]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.01-15.43.08:806][567]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.01-15.43.08:810][567]LogDerivedDataCache: Shutdown
+[2016.05.01-15.43.08:810][567]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.01-15.43.08:811][567]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.01-15.43.08:812][567]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.01-15.43.08:812][567]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.01-15.43.08:812][567]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.01-15.43.09:812][567]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.01-15.43.09:816][567]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.01-15.43.09:820][567]LogExit: Exiting.
+[2016.05.01-15.43.09:821][567]Log file closed, 05/01/16 11:43:09
